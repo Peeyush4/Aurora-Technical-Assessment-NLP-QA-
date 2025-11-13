@@ -60,7 +60,8 @@ def main():
             if not item.get("message") or not item["message"].strip():
                 continue
                 
-            documents.append(item["message"])
+            message = f"On {item.get('timestamp', 'Unknown date')}, user {item.get('user_name', 'Unknown user')} sent a message: '{item.get('message', '')}'"
+            documents.append(message)
             metadatas.append({
                 "user_name": item.get("user_name", "Unknown"),
                 "user_id": item.get("user_id", "Unknown"),
