@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage
 import uuid
 
 # Import our compiled agent
-from agent import app
+from agent import app 
 # Import the spaCy loader
 from tools import nlp, KNOWN_USER_ALIASES
 
@@ -19,11 +19,12 @@ api = FastAPI(
 # --- Pydantic Models ---
 class QuestionRequest(BaseModel):
     question: str
-    thread_id: str = None # We NEED thread_id for conversational memory
+    # We no longer need thread_id, as our new graph is not conversational
+    # thread_id: str = None 
 
 class AnswerResponse(BaseModel):
     answer: str
-    thread_id: str # We will return the thread_id
+    # thread_id: str
 
 # --- Startup Event ---
 @api.on_event("startup")
@@ -50,26 +51,26 @@ async def ask(request: QuestionRequest):
     if not request.question:
         raise HTTPException(status_code=400, detail="Question field cannot be empty")
     
-    # We NEED a thread_id for the agent's memory
-    thread_id = request.thread_id or str(uuid.uuid4())
-    config = {"configurable": {"thread_id": thread_id}}
+    # Our new graph is not conversational, so we don't need a thread_id
+    # thread_id = request.thread_id or str(uuid.uuid4())
+    # config = {"configurable": {"thread_id": thread_id}}
     
-    print(f"\n--- New Request (Thread: {thread_id}) ---")
+    print(f"\n--- New Request ---")
     print(f"Question: {request.question}")
 
     # 2. This is the 10x step: we run the whole agent
     # This will take 20-30s, as you're fine with.
     try:
+        # We pass the question into the 'question' key of our state
         final_state = app.invoke(
-            {"messages": [HumanMessage(content=request.question)]}, 
-            config=config
+            {"question": request.question, "messages": []} 
         )
         
         # The final answer is the last message in the state
         answer = final_state['messages'][-1].content
         
         print(f"Final Answer: {answer}")
-        return {"answer": answer, "thread_id": thread_id}
+        return {"answer": answer} # Removed thread_id
         
     except Exception as e:
         print(f"!!! AGENT FAILED: {e}")
@@ -83,4 +84,4 @@ def read_root():
 # --- Uvicorn Runner ---
 if __name__ == "__main__":
     # Note: This is now 'app.main:api' because it's inside the 'app' folder
-    uvicorn.run("app.main:api", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("main:api", host="0.0.0.0", port=8000, reload=True)
