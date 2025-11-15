@@ -1,0 +1,16 @@
+{
+  "name": "Unnamed Client",
+  "email": null,
+  "preferences": {
+    "locations": ["Amsterdam", "Aspen", "Bali", "Dublin", "Hong Kong", "Lyon", "New Orleans", "San Diego", "Singapore", "Tokyo", "Zurich"],
+    "hotel_types": ["luxury", "resort", "penthouse"],
+    "food_preferences": {
+      "allergies": ["shellfish"],
+      "cuisines": ["French", "Italian", "Japanese"]
+    },
+    "activities": ["wellness retreat", "hot air balloon ride", "music festivals", "art events", "golf"],
+    "eco_friendly": true,
+    "subscription_payment": false,
+    "vip_experiences": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": null,
+  "email": null,
+  "phone_numbers": [
+    "+123-456-7890",
+    "+447712345678"
+  ],
+  "addresses": [
+    {
+      "type": "residential",
+      "street_address": "101 Main Street, Suite 2505"
+    }
+  ],
+  "dietary_restrictions": ["vegan", "gluten-free", "dairy-free"],
+  "hotel_preferences": {
+    "room_stocking": ["sparkling water"]
+  },
+  "travel_preferences": {
+    "greeting_at_arrivals": true
+  },
+  "yacht_cruise_preference": {
+    "start_time": "noon"
+  }
+}

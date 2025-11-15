@@ -1,0 +1,75 @@
+{
+  "Name": "User",
+  "Contact": {
+    "Email": "",
+    "Phone": ""
+  },
+  "Preferences": {
+    "Hotel": {
+      "Quiet_Rooms": true,
+      "Pet_Friendly": false,
+      "Preferred_Chain": "",
+      "Location_Preference": ""
+    },
+    "Transportation": {
+      "Chauffeur_Service": true,
+      "Helicopter_Tour": true,
+      "Car_Preference": "Luxury",
+      "Airport_Transfers": true
+    },
+    "Dining": {
+      "Restaurant_Type": "Fine_Dining",
+      "Cuisine_Preference": "",
+      "Vegan": false,
+      "Gluten_Free": true,
+      "Rooftop_Dining": true
+    },
+    "Events": {
+      "Private_Helicopter_Tour": true,
+      "Proposal_Setup": true,
+      "Serenade_on_Gondolas": true,
+      "Fashion_Week_Show": true,
+      "VIP_Wine_Tasting": true
+    },
+    "Activities": {
+      "Personal_Shopper": true,
+      "Golfing": {
+        "Augusta_National": true
+      }
+    }
+  },
+  "Travel_History": [
+    {
+      "Destination": "Rome",
+      "Rating": "Perfect"
+    }
+  ],
+  "Reviews": [
+    {
+      "Driver": "Excellent service",
+      "Hotel": "Everything was perfect",
+      "Restaurant": "Kudos!"
+    }
+  ],
+  "Billing_Issues": [
+    {
+      "Double_Charging": true,
+      "Date": "February 2025"
+    },
+    {
+      "Double_Charging": true,
+      "Date": "January 2025",
+      "Resolved": false
+    }
+  ],
+  "Bill_Inquiries": [
+    {
+      "Date": "February 2025",
+      "Question": "Can you explain the double charge of $950?"
+    },
+    {
+      "Date": "February 2025",
+      "Question": "Can you resolve the double-billing issue from my Paris hotel stay?"
+    }
+  ]
+}

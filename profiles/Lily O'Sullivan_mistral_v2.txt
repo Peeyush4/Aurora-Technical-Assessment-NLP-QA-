@@ -1,0 +1,70 @@
+{
+  "name": "Unknown",
+  "email": "unknown",
+  "preferences": {
+    "locations": ["Honolulu", "Los Angeles", "Madrid", "Ibiza", "San Francisco"],
+    "hotel_type": "penthouse",
+    "vehicle_type": "Tesla Model X",
+    "dining_preferences": {
+      "cuisine": ["British", "Italian"],
+      "vegan_options": true,
+      "romantic": true
+    },
+    "leisure_activities": ["golf", "yachting"],
+    "art_interests": true,
+    "fashion_events": true,
+    "event_types": ["private tour", "dinner cruise", "conference"],
+    "bed_type": "king",
+    "allergy": "hypoallergenic"
+  },
+  "travel_history": [
+    {
+      "destination": "Sydney",
+      "date_from": "2025-05-28",
+      "date_to": "2025-06-04",
+      "issues": ["unknown extra charge"]
+    },
+    {
+      "destination": "Milan",
+      "date_from": "2025-05-11",
+      "date_to": "2025-05-18",
+      "issues": ["duplicate charge"]
+    }
+  ],
+  "upcoming_travel": [
+    {
+      "destination": "Tokyo",
+      "date_from": "2025-11-19",
+      "date_to": "2025-11-25",
+      "events": ["fashion week"]
+    }
+  ],
+  "requests": [
+    {
+      "type": "flower_delivery",
+      "recipient": "wife",
+      "flowers": ["lilies", "roses"]
+    },
+    {
+      "type": "art_piece_update",
+      "high_demand": true
+    },
+    {
+      "type": "balance_recalculation",
+      "event": "private tour in Madrid"
+    },
+    {
+      "type": "yacht_dinner",
+      "location": "coast of Ibiza"
+    },
+    {
+      "type": "spa_appointment_reschedule",
+      "new_date": "2025-06-10"
+    },
+    {
+      "type": "private_dining_experience",
+      "location": "San Francisco",
+      "date": "2025-06-11"
+    }
+  ]
+}

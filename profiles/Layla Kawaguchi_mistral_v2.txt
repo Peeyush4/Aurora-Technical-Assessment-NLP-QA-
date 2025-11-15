@@ -1,0 +1,51 @@
+{
+  "name": "High-End Client",
+  "preferences": {
+    "meals": ["gluten-free"],
+    "catering": ["organic"]
+  },
+  "travel": {
+    "airline_preference": "Qatar Airways",
+    "hotel_preference": "Presidential Suite",
+    "car_service_preference": true,
+    "transportation_requests": [
+      {
+        "date": "November 20th",
+        "confirmation_required": true
+      }
+    ]
+  },
+  "entertainment": {
+    "concerts": ["U2"],
+    "symphony": {
+      "seating_preference": "orchestra"
+    },
+    "events": [
+      {
+        "event_name": "club opening",
+        "vip_status": true,
+        "date": "tomorrow night"
+      }
+    ],
+    "art": {
+      "auction": "Los Angeles"
+    }
+  },
+  "special_requests": [
+    "backstage passes",
+    "private yacht for birthday celebration",
+    "astronomer-led stargazing night",
+    "purchase of a limited edition Hermes scarf",
+    {
+      "project_management": true,
+      "logs_retention": true
+    }
+  ],
+  "pet_care": {
+    "pet_sitting": true,
+    "new_years_pet_sitting": true
+  },
+  "communication_preferences": {
+    "confirmations": ["partner's number", "assistant"]
+  }
+}

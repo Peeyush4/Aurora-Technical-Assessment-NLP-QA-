@@ -1,0 +1,67 @@
+{
+  "customer_id": "001",
+  "name": "Undefined",
+  "email": "Undefined",
+  "phone": "Undefined",
+  "preferences": {
+    "airline_seat_preference": "Aisle seats",
+    "hotel_chain_preference": "Peninsula",
+    "pillow_preference": "Firm pillows",
+    "dining_preference": [
+      {
+        "location": "Paris",
+        "restaurant_name": "Undefined",
+        "cuisine": "Undefined"
+      },
+      {
+        "location": "Florence",
+        "restaurant_name": "Undefined",
+        "cuisine": "Undefined",
+        "dining_type": "Secluded"
+      }
+    ],
+    "activity_preference": [
+      {
+        "location": "Ibiza",
+        "activity_type": "Private jet"
+      },
+      {
+        "location": "Paris",
+        "activity_type": "Vintage Car Rally"
+      }
+    ],
+    "wellness_preference": {
+      "Maldives": "Wellness retreats"
+    }
+  },
+  "travel_history": [
+    {
+      "destination": "Undefined",
+      "date": "Undefined",
+      "activities": ["Undefined"]
+    },
+    {
+      "destination": "Undefined",
+      "date": "Undefined",
+      "activities": ["Undefined"]
+    }
+  ],
+  "loyalty_programs": [],
+  "pending_requests": [
+    {
+      "request": "Candle-lit dinner on the beach",
+      "status": "Pending"
+    },
+    {
+      "request": "Extra night at The Peninsula",
+      "status": "Pending"
+    }
+  ],
+  "feedback": [],
+  "billing_issues": [
+    {
+      "issue": "Payment error on the ski lodge charge from January",
+      "status": "Unresolved"
+    }
+  ]
+}

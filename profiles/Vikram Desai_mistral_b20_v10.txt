@@ -1,0 +1,202 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "1234567890",
+  "contact_info": {
+    "phone": "+123-456-7890",
+    "email": "viktor@example.com",
+    "address": "742 Evergreen Terrace",
+    "passport": "XXXXXXXXXXX"
+  },
+  "preferences": {
+    "seat": "",
+    "hotel_amenities": ["Jacuzzi"],
+    "allergies": ["shellfish"],
+    "other": [
+      "Dom Perignon",
+      "chef's table",
+      "wellness retreat",
+      "local guide for pyramids"
+    ]
+  },
+  "trips_and_events": [
+    {
+      "item": "Moet & Chandon tour in Epernay",
+      "status": "",
+      "request_date": "2025-05-09",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Additional fee clarification for Moet & Chandon tour",
+      "status": "Requested",
+      "request_date": "2025-05-10",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "First class flight to Tokyo",
+      "status": "Requested",
+      "request_date": "2025-05-11",
+      "event_date": "2025-05-11",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Culinary tour in Lyon",
+      "status": "Requested",
+      "request_date": "2025-05-11",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Jazz club in New Orleans",
+      "status": "Requested",
+      "request_date": "2025-05-12",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Fresh-cut tulips in Amsterdam suite",
+      "status": "Requested",
+      "request_date": "2025-05-16",
+      "event_date": "2025-??-??",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Table at chef's table on Friday night",
+      "status": "Requested",
+      "request_date": "2025-06-12",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Le Bernardin reservation for two on Friday",
+      "status": "Requested",
+      "request_date": "2025-06-02",
+      "event_date": "2025-06-09",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Italy tour detailed itinerary",
+      "status": "Requested",
+      "request_date": "2025-06-01",
+      "event_date": "2025-06-02",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Quiet and luxurious retreat in Switzerland",
+      "status": "Requested",
+      "request_date": "2025-06-11",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Chef of two Michelin star caliber",
+      "status": "Requested",
+      "request_date": "2025-06-11",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Dinner reservation for twelve at The Ivy",
+      "status": "Requested",
+      "request_date": "2025-06-12",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "One-month lease on a penthouse with full-service gym in Singapore",
+      "status": "Requested",
+      "request_date": "2025-06-13",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Two-bedroom suite with club access at the Ritz-Carlton in Hong Kong",
+      "status": "Requested",
+      "request_date": "2025-06-13",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Eco-friendly trip arrangements",
+      "status": "Requested",
+      "request_date": "2025-06-18",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "VIP Coachella experiences with delightful music options",
+      "status": "Requested",
+      "request_date": "2025-06-17",
+      "event_date": "2023",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Conference room with video capabilities in Zurich on the 17th",
+      "status": "Requested",
+      "request_date": "2025-06-20",
+      "event_date": "2025-06-17",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Krug Grande Cuvée delivery to penthouse suite",
+      "status": "Requested",
+      "request_date": "2025-06-20",
+      "event_date": "2025-06-20",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Refund for cancelled flight to Tokyo",
+      "status": "Requested",
+      "request_date": "2025-06-19",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Hot air balloon ride over Cappadocia",
+      "status": "Requested",
+      "request_date": "2025-06-08",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Sunrise hot air balloon ride on the 18th",
+      "status": "Requested",
+      "request_date": "2025-06-07",
+      "event_date": "2025-06-18",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Bali room facing the sea",
+      "status": "Requested",
+      "request_date": "2025-06-05",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    }
+  ],
+  "trips_and_events_feedback": [
+    // Feedback will be added here as it becomes available.
+  ]
+}

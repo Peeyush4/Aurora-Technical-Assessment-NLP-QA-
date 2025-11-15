@@ -1,0 +1,68 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "1234567890",
+  "contact_info": {
+    "phone": "+123-456-7890",
+    "email": "viktor@example.com",
+    "address": "742 Evergreen Terrace",
+    "passport": "987654321"
+  },
+  "preferences": {
+    "seat": "",
+    "hotel_amenities": ["Jacuzzi", "fragrance-free"],
+    "allergies": ["shellfish"],
+    "other": [
+      "Dom Perignon",
+      "chef's table",
+      "wellness retreat",
+      "local guide for pyramids",
+      "personal trainer"
+    ]
+  },
+  "trips_and_events": [
+    {
+      "item": "Moet & Chandon tour in Epernay",
+      "status": "",
+      "request_date": "2025-05-09",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Virtual reality golfing experience at home",
+      "status": "Requested",
+      "request_date": "2025-06-22 10:50:03.167906+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Chef to prepare a special dinner during stay",
+      "status": "Requested",
+      "request_date": "2025-06-22 09:53:53.161183+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Stila Hyaluronic Hydration Powder in room upon arrival",
+      "status": "Requested",
+      "request_date": "2025-06-29 10:47:50.175247+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Extra baggage allowances on flight for heavy equipment",
+      "status": "Requested",
+      "request_date": "2025-06-30 10:47:50.175247+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    // Remaining trips and events are not affected by the new messages
+  ],
+  "trips_and_events_feedback": [
+    // Feedback will be added here as it becomes available.
+  ]
+}

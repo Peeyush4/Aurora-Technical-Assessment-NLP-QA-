@@ -1,0 +1,87 @@
+Here is the updated profile based on the messages provided:
+
+```json
+{
+  "name": "Vikram Desai",
+  "contact_info": {
+    "phone": ["789-654-3210", "2233445566"],
+    "email": [],
+    "emergency_contact": {
+      "name": "",
+      "phone": "555-111-2222"
+    }
+  },
+  "travel_preferences": {
+    "vehicle": "BMW",
+    "class": "first-class"
+  },
+  "recent_experiences": [
+    {
+      "location": "La Scala",
+      "rating": "lovely"
+    },
+    {
+      "location": "Per Se",
+      "rating": "outstanding"
+    }
+  ],
+  "upcoming_plans": [
+    {
+      "location": "Aspen",
+      "transportation": "chartered flight",
+      "date": "December 18th"
+    },
+    {
+      "location": "Bali",
+      "activities": ["private yoga session", "patisserie-focused culinary class"]
+    }
+  ],
+  "recent_requests": [
+    {
+      "service": "opera tickets at La Scala",
+      "status": "lovely"
+    },
+    {
+      "service": "dining at Per Se",
+      "status": "outstanding",
+      "feedback": "thank you"
+    }
+  ],
+  "pending_requests": [
+    {
+      "service": "yacht rental",
+      "date": "this Saturday"
+    },
+    {
+      "service": "Aston Martin purchasing option"
+    },
+    {
+      "service": "golf clubs transfer to St. Andrews"
+    },
+    {
+      "service": "South American tour itinerary"
+    }
+  ],
+  "feedback_requests": [
+    {
+      "service": "yacht-making class during Napa Valley stay",
+      "status": "pending"
+    },
+    {
+      "service": "museum tickets for the sold-out exhibit",
+      "status": "pending"
+    }
+  ],
+  "complaints": [
+    {
+      "location": "last hotel",
+      "issue": "service was not up to our expectations"
+    },
+    {
+      "invoice": "",
+      "charge": "$3,200",
+      "status": "pending clarification"
+    }
+  ]
+}
+```

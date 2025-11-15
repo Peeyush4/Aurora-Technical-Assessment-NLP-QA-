@@ -1,0 +1,90 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "917-882-4455",
+  "contact_info": {
+    "phone": "917-882-4455",
+    "email": "<not provided>",
+    "address": "<not provided>",
+    "passport": "<not provided>"
+  },
+  "preferences": {
+    "seat": "executive",
+    "hotel_amenities": [],
+    "allergies": [],
+    "other": ["direct flights", "quiet tables away from kitchen and restrooms", "private beach access", "Maldives trips"]
+  },
+  "trips_and_events": [
+    {
+      "item": "Tennis Finals at Wimbledon",
+      "status": "Requested",
+      "request_date": "2025-10-22",
+      "event_date": "<not provided>",
+      "user_aliases": [],
+      "feedback": "<not provided>"
+    },
+    {
+      "item": "VIP passes for film premiere next weekend",
+      "status": "Requested",
+      "request_date": "2025-10-22",
+      "event_date": "<not provided>",
+      "user_aliases": [],
+      "feedback": "<not provided>"
+    },
+    {
+      "item": "Dinner reservation change",
+      "status": "Requested",
+      "request_date": "2025-10-22",
+      "event_date": "<not provided>",
+      "user_aliases": [],
+      "feedback": "<not provided>"
+    },
+    {
+      "item": "High-end tailors in Milan",
+      "status": "Requested",
+      "request_date": "2025-10-23",
+      "event_date": "<not provided>",
+      "user_aliases": [],
+      "feedback": "<not provided>"
+    },
+    {
+      "item": "Gifts for Amanda's birthday",
+      "status": "Requested",
+      "request_date": "2025-10-25",
+      "event_date": "<not provided>",
+      "user_aliases": [],
+      "feedback": "<not provided>"
+    },
+    {
+      "item": "Luxury car rental in Milan on the 14th",
+      "status": "Requested",
+      "request_date": "2025-11-04",
+      "event_date": "2025-11-14",
+      "user_aliases": [],
+      "feedback": "<not provided>"
+    },
+    {
+      "item": "Investigation of recent flight booking issues",
+      "status": "Requested",
+      "request_date": "2025-11-06",
+      "event_date": "<not provided>",
+      "user_aliases": [],
+      "feedback": "<not provided>"
+    },
+    {
+      "item": "Planning another trip to the Maldives next month",
+      "status": "Requested",
+      "request_date": "2025-11-07",
+      "event_date": "<not provided>",
+      "user_aliases": [],
+      "feedback": "<not provided>"
+    },
+    {
+      "item": "Art investment consultant for Zurich meeting",
+      "status": "Requested",
+      "request_date": "2025-11-08",
+      "event_date": "<not provided>",
+      "user_aliases": [],
+      "feedback": "<not provided>"
+    }
+  ]
+}

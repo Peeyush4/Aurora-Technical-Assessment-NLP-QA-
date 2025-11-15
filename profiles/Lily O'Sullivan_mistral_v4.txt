@@ -1,0 +1,35 @@
+{
+  "name": "VIP Client",
+  "preferences": {
+    "room_type": "high-floor corner suite",
+    "meal_options": "gluten-free",
+    "transportation_preferences": {
+      "driver_credentials": "ADA"
+    },
+    "events": {
+      "flowers": {
+        "delivery_time": "8 AM on December 11th"
+      }
+    },
+    "destinations": [
+      "Maldives",
+      "Geneva",
+      "Paris",
+      "New York City",
+      "Madrid",
+      "Cannes",
+      "Art Basel"
+    ],
+    "activities": [
+      "art galleries tours",
+      "city tours with historical aspects",
+      "yoga classes",
+      "spa days",
+      "skiing vacations"
+    ],
+    "subscriptions": ["luxury watches reviews within $20,000 range"],
+    "vehicles": ["Aston Martin"]
+  },
+  "subscription_fee_status": "prepaid",
+  "club_membership_status": "active"
+}

@@ -1,0 +1,175 @@
+{
+  "name": "Vikram Desai",
+  "email": "viktor@example.com",
+  "phone": "+123-456-7890",
+  "contact_info": {},
+  "preferences": {
+    "chess_level": "Grandmaster",
+    "cosmetics_personal_care_items": false,
+    "mineral_water_brand": "Preferred Brand",
+    "helicopter_transfer": true,
+    "art_gallery_tour_status": null,
+    "adele_concert_tickets": true,
+    "hotel_suite": "Corner Deluxe",
+    "hotel_change": true,
+    "skiing_instructors": ["Replacement Riders"],
+    "discrepancy_transaction": true,
+    "harrods_shopping_tour": true,
+    "singapore_connection": "Seamless",
+    "executive_membership": true,
+    "gluten_free_menu": true,
+    "napa_valley_wine_tasting": true,
+    "dubai_gulfstream": true,
+    "concert_vip": true,
+    "art_show_intelligence": true,
+    "backstage_meet_and_greet": null,
+    "arrival_flowers": "Orchids",
+    "car_preference": "Impeccable Service"
+  },
+  "trips_and_events": [
+    {
+      "item": "Singapore Trip",
+      "status": "Pending",
+      "request_date": "2025-01-10",
+      "event_date": null,
+      "user_aliases": ["Itinerary Resend"],
+      "feedback": null
+    },
+    {
+      "item": "Marrakech Recommendations",
+      "status": "Requested",
+      "request_date": "2025-01-10",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Helicopter Tour Reschedule",
+      "status": "Requested",
+      "request_date": "2025-01-22",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Incorrect Charge Issue",
+      "status": "Pending",
+      "request_date": "2025-01-11",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Private Guide to the Louvre",
+      "status": "Requested",
+      "request_date": "2025-01-14",
+      "event_date": "2025-02-01",
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Balthazar Dinner Reservation",
+      "status": "Confirmed",
+      "request_date": "2025-01-15",
+      "event_date": "2025-01-19",
+      "user_aliases": [],
+      "feedback": "Thank you for arranging the car; your service was impeccable."
+    },
+    {
+      "item": "Tesla at LAX Pickup",
+      "status": "Requested",
+      "request_date": "2025-01-17",
+      "event_date": "2025-01-30",
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Boucheron Earrings Purchase",
+      "status": "Pending",
+      "request_date": "2025-01-17",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Private Jet to Ibiza",
+      "status": "Pending",
+      "request_date": "2025-01-20",
+      "event_date": "2025-01-27",
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Michelin-Star Dinner",
+      "status": "Completed",
+      "request_date": "2025-01-23",
+      "event_date": "2025-01-23",
+      "user_aliases": [],
+      "feedback": "The coordinated dinner at the Michelin-star restaurant was perfect."
+    },
+    {
+      "item": "Private Chef Confirmation",
+      "status": "Pending",
+      "request_date": "2025-01-23",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Luxury Timepiece Information",
+      "status": "Requested",
+      "request_date": "2025-01-25",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Direct Flights to Doha",
+      "status": "Requested",
+      "request_date": "2025-01-26",
+      "event_date": "2025-02-03",
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Address Change",
+      "status": "Completed",
+      "request_date": "2025-01-27",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Switch International Calls to Direct Billing",
+      "status": "Requested",
+      "request_date": "2025-01-27",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "14-day Safari in South Africa",
+      "status": "Requested",
+      "request_date": "2025-01-27",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Low Sodium Meals on Flights",
+      "status": "Requested",
+      "request_date": "2025-01-27",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Extra Towels Request",
+      "status": "Requested",
+      "request_date": "2025-01-27",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    }
+  ]
+}

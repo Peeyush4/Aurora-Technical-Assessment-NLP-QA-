@@ -1,0 +1,34 @@
+{
+  "user_id": "001",
+  "name": "Undetermined",
+  "email": null,
+  "phone_numbers": [
+    {
+      "type": "home",
+      "number": "unknown"
+    },
+    {
+      "type": "work",
+      "number": "unknown"
+    }
+  ],
+  "addresses": [],
+  "preferences": {
+    "flights": {
+      "seat_preference": "window",
+      "no_red_eye": true
+    },
+    "hotels": {
+      "no_lilies": true,
+      "french_preference": false
+    },
+    "meals": {},
+    "cruises": {},
+    "events": {}
+  },
+  "subscription": {
+    "weekly_events_la": true
+  },
+  "visa_status": null,
+  "fax_number": "431-555-2363"
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Viktor",
+  "email": "viktor@example.com",
+  "phone": "+123-456-7890",
+  "preferences": {
+    "chess_level": "Grandmaster",
+    "cosmetics_personal_care_items": false,
+    "mineral_water_brand": "Preferred Brand",
+    "helicopter_transfer": true,
+    "art_gallery_tour_status": null,
+    "adele_concert_tickets": true,
+    "hotel_suite": "Corner Deluxe",
+    "hotel_change": true,
+    "skiing_instructors": ["Replacement Riders"],
+    "discrepancy_transaction": true,
+    "harrods_shopping_tour": true,
+    "singapore_connection": "Seamless",
+    "executive_membership": true,
+    "gluten_free_menu": true,
+    "napa_valley_wine_tasting": true,
+    "dubai_gulfstream": true,
+    "concert_vip": true,
+    "art_show_intelligence": true,
+    "backstage_meet_and_greet": null,
+    "arrival_flowers": "Orchids"
+  },
+  "trips": [
+    {
+      "destination": "Nice - St Tropez",
+      "transportation": "Helicopter",
+      "date": "2024-12-31"
+    },
+    {
+      "destination": "Dubai",
+      "transportation": "Gulfstream",
+      "date": "2025-01-08"
+    }
+  ],
+  "events": [
+    {
+      "event_name": "Adele Concert",
+      "tickets": "VIP",
+      "date": "TBD"
+    },
+    {
+      "event_name": "Napa Valley Wine Tasting",
+      "date": "TBD"
+    },
+    {
+      "event_name": "Backstage Meet and Greet",
+      "artist": null,
+      "date": "TBD"
+    }
+  ],
+  "feedback": [
+    {
+      "date": "2024-12-20",
+      "message": "Thank you for arranging the seamless connection in Singapore."
+    },
+    {
+      "date": "2025-01-04",
+      "message": "Can you add my new executive membership details to my profile?"
+    },
+    {
+      "date": "2025-01-07",
+      "message": "Could you arrange for a backstage meet and greet with the artist?"
+    }
+  ],
+  "notes": [
+    {
+      "date": "2024-12-19",
+      "note": "Set up a virtual chess match with Grandmaster Magnus next week."
+    },
+    {
+      "date": "2024-12-21",
+      "note": "Could you make sure my preferred brand of mineral water is stocked?"
+    },
+    {
+      "date": "2024-12-23",
+      "note": "Arrange a helicopter transfer from Nice airport to St Tropez for Saturday."
+    },
+    {
+      "date": "2024-12-24",
+      "note": "Could you check on the status of my requested art gallery tour?"
+    },
+    {
+      "date": "2024-12-25",
+      "note": "I’m looking for 2 tickets to the Adele concert next week, can you help?"
+    },
+    {
+      "date": "2024-12-28",
+      "note": "Could you please switch my hotel booking to a boutique hotel in the city center?"
+    },
+    {
+      "date": "2024-12-30",
+      "note": "Replacement riders to be provided as my skiing instructors for the Alps trip."
+    },
+    {
+      "date": "2025-01-02",
+      "note": "Can you please prearrange a guided bespoke shopping tour at Harrods on November 3rd?"
+    },
+    {
+      "date": "2025-01-04",
+      "note": "Can you ensure a gluten-free menu at the cocktail party in Prague?"
+    },
+    {
+      "date": "2025-01-04",
+      "note": "Can you add my new executive membership details to my profile?"
+    },
+    {
+      "date": "2025-01-04",
+      "note": "Can you ensure a gluten-free menu at the cocktail party in Prague?"
+    },
+    {
+      "date": "2025-01-04",
+      "note": "Can you ensure a gluten-free menu at the cocktail party in Prague?"
+    },
+    {
+      "date": "2025-01-04",
+      "note": "I'd like to experience an exclusive wine tasting in Napa Valley."
+    },
+    {
+      "date": "2025-01-04",
+      "note": "Arrange a Gulfstream for a quick trip to Dubai next Friday."
+    },
+    {
+      "date": "2025-01-05",
+      "note": "Switch my concert tickets to VIP; I need express entry."
+    },
+    {
+      "date": "2025-01-07",
+      "note": "Monthly art show intelligence updates are always essential to me."
+    },
+    {
+      "date": "2025-01-07",
+      "note": "Could you arrange for a backstage meet and greet with the artist?"
+    },
+    {
+      "date": "2025-01-07",
+      "note": "Ensure my arrival flowers at the Ritz are always orchids."
+    }
+  ]
+}

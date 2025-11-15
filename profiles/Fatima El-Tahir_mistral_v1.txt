@@ -1,0 +1,47 @@
+{
+  "name": "Unnamed User",
+  "preferences": {
+    "accommodation": {
+      "hotel_brands": ["Ritz-Carlton"],
+      "room_type": ["quiet", "family suite", "overwater bungalow"],
+      "amenities": ["low-scent"],
+      "view": ["harbor", "sunset"]
+    },
+    "dining": {
+      "cuisine": ["exact_to_taste"],
+      "restaurants": ["Le Bernardin", "Eleven Madison Park"]
+    },
+    "transportation": {
+      "preferred_vehicle": "Tesla",
+      "private_boarding": true,
+      "addresses": {"Kensington": "12 Bridge Road"}
+    },
+    "events": {
+      "sports": ["Champions League final", "Monaco Grand Prix"],
+      "concerts": true
+    },
+    "experiences": {
+      "yacht_preferences": {
+        "chef_onboard": true
+      }
+    },
+    "miscellaneous": {
+      "pilates_sessions": true,
+      "equestrian_lessons": true
+    }
+  },
+  "travel_history": [
+    {
+      "destination": "Paris",
+      "hotel": "Ritz-Carlton"
+    },
+    {
+      "destination": "Kyoto",
+      "dining": ["upscale dining"]
+    }
+  ],
+  "notes": [
+    "I prefer early morning flights over late night ones wherever possible.",
+    "Note my active preferred schedule for pilates sessions here at the resort."
+  ]
+}

@@ -1,0 +1,88 @@
+Here is an updated version of the profile with the changes made based on the messages provided:
+
+{
+  "name": "",
+  "contact_info": {
+    "phone": ["789-654-3210"],
+    "email": []
+  },
+  "addresses": [
+    {
+      "type": "primary",
+      "street_address": "489 Madison Ave",
+      "suite": "401",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60654"
+    }
+  ],
+  "preferences": {
+    "meals": {
+      "special_requests": ["low in sodium during flights"],
+      "cuisine": []
+    },
+    "flowers": {
+      "type": "orchids",
+      "requested_upon_arrival": true
+    },
+    "travel": {
+      "airport_transport": ["Tesla", "helicopter"],
+      "flight_preferences": []
+    },
+    "hospitality": {
+      "butler_service": true,
+      "towels": ["extra towels"]
+    },
+    "dining": {
+      "restaurants": [
+        {
+          "name": "Balthazar",
+          "booking_details": {
+            "date": "",
+            "time": "",
+            "number_of_people": 12
+          }
+        },
+        {
+          "name": "Per Se",
+          "booking_details": {
+            "date": "December 10th",
+            "time": "",
+            "number_of_people": 4
+          }
+        }
+      ],
+      "cuisine_preferences": ["Asian"]
+    },
+    "events": [
+      {
+        "event": "U2 concert",
+        "seating_preference": "front-row"
+      },
+      {
+        "event": "exclusive wine tasting event",
+        "attending": true
+      }
+    ],
+    "purchases": [
+      {
+        "item": "specific vintage wine for collection"
+      },
+      {
+        "item": "Boucheron earrings"
+      },
+      {
+        "item": "luxury timepieces",
+        "budget": "flexible"
+      }
+    ],
+    "safari": {
+      "location": "",
+      "duration": "14 days",
+      "budget": ""
+    },
+    "cruise": {
+      "delay_investigation": true
+    }
+  }
+}

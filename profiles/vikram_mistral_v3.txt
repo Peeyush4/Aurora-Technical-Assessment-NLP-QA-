@@ -1,0 +1,27 @@
+{
+  "name": "Undisclosed",
+  "email": "undisclosed@example.com",
+  "preferences": {
+    "hotel": {
+      "room_type": "suite",
+      "room_number": "502",
+      "temperature": "72 degrees Fahrenheit",
+      "hypoallergenic_products": true,
+      "electric_car_charging": true
+    },
+    "restaurant": {
+      "preferred_cuisine": ["Fine Dining"],
+      "locations": ["Hong Kong"]
+    },
+    "events": {
+      "fashion_week": true,
+      "dubai_expo": true,
+      "yacht_rental": true,
+      "mediterranean_cruise": true
+    },
+    "travel": {
+      "car_and_driver": ["New York City", "December 9th"],
+      "private_guide": ["Tokyo"]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "1234567890",
+  "contact_info": {
+    "phone": "+123-456-7890",
+    "email": "viktor@example.com",
+    "address": "742 Evergreen Terrace",
+    "passport": "XXXXXXXXXXX"
+  },
+  "preferences": {
+    "chess_level": "Grandmaster",
+    "cosmetics_personal_care_items": false,
+    "mineral_water": "Still",
+    "museums": ["Louvre", "Musee d'Orsay"],
+    "art_galleries": ["Metropolitan Museum of Art"],
+    "cruise_layout": ["2 connecting suites"],
+    "cars": ["BMW"]
+  },
+  "hobbies": ["Golf", "Opera"],
+  "events": [
+    {
+      "event": "Private surf lesson in Maui",
+      "date": "Next month"
+    },
+    {
+      "event": "Private yoga instructor for the upcoming retreat in Bali",
+      "date": "TBD"
+    }
+  ],
+  "travel_plans": [
+    {
+      "destination": "South America",
+      "personalized_itinerary": true
+    },
+    {
+      "destination": "Paris",
+      "car": "Bentley"
+    },
+    {
+      "destination": "Dubai",
+      "helicopter_transport": true
+    }
+  ],
+  "dining": [
+    {
+      "restaurant": "Per Se",
+      "feedback": "Dining at Per Se was outstanding, thank you."
+    },
+    {
+      "restaurant": "Table with a View at Gordon Ramsay's in Vegas",
+      "reservation_time": "8:30 PM"
+    }
+  ],
+  "cruise": {
+    "cabin_preference": "Cabin"
+  },
+  "private_chefs": [],
+  "opera_tickets": {
+    "swap_date": "TBD"
+  },
+  "events_feedback": [
+    {
+      "event": "Opera at La Scala",
+      "feedback": "The opera at La Scala was lovely, would visit again."
+    }
+  ],
+  "hotels": [
+    {
+      "location": "Last hotel",
+      "issue": "Service was not up to our expectations"
+    }
+  ],
+  "cars_feedback": [
+    {
+      "car": "BMW",
+      "feedback": "Change my regular car service to the BMW instead of the Mercedes."
+    }
+  ]
+}

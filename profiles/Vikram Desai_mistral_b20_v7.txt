@@ -1,0 +1,215 @@
+{
+  "name": "Vikram Desai",
+  "email": "viktor@example.com",
+  "phone": "+123-456-7890",
+  "contact_info": {
+    "new_emergency_contact": "789-654-3210",
+    "partner_phone": "2233445566"
+  },
+  "preferences": {
+    "chess_level": "Grandmaster",
+    "cosmetics_personal_care_items": false,
+    "mineral_water_brand": "Preferred Brand",
+    "helicopter_transfer": true,
+    "art_gallery_tour_status": null,
+    "adele_concert_tickets": true,
+    "hotel_suite": "Corner Deluxe",
+    "hotel_change": true,
+    "skiing_instructors": ["Replacement Riders"],
+    "discrepancy_transaction": true,
+    "harrods_shopping_tour": true,
+    "singapore_connection": "Seamless",
+    "executive_membership": true,
+    "gluten_free_menu": true,
+    "navy_blue_preferred_color": true,
+    "flower_preference": "fresh flowers"
+  },
+  "trips_and_events": [
+    {
+      "item": "Airport Car Service",
+      "status": "Open",
+      "date": "2025-02-27",
+      "time": "7:00 AM",
+      "feedback": null
+    },
+    {
+      "item": "Spa Treatment at the Peninsula Spa",
+      "status": "Requested",
+      "date": "2025-03-16",
+      "time": "TBD",
+      "user_aliases": ["spa treatment"],
+      "feedback": null
+    },
+    {
+      "item": "Private Wine Tasting Tour in Bordeaux",
+      "status": "Open",
+      "date": "N/A",
+      "guests": 4,
+      "feedback": null
+    },
+    {
+      "item": "Vatican Personalized Tour",
+      "status": "Open",
+      "date": "2025-01-15",
+      "time": "N/A",
+      "feedback": null
+    },
+    {
+      "item": "Beachfront Accommodations in Phuket",
+      "status": "Open",
+      "date": "March",
+      "nights": 3,
+      "feedback": null
+    },
+    {
+      "item": "Private Yoga Session in Bali",
+      "status": "Requested",
+      "date": "May",
+      "time": "TBD",
+      "user_aliases": ["yoga session"],
+      "feedback": null
+    },
+    {
+      "item": "Exclusive Cooking Class in Milan",
+      "status": "Requested",
+      "date": "Next Weekend",
+      "time": "TBD",
+      "user_aliases": ["cooking class"],
+      "feedback": null
+    },
+    {
+      "item": "Gilded Age Mansions Tour in the Hamptons",
+      "status": "Open",
+      "date": "N/A",
+      "feedback": null
+    },
+    {
+      "item": "Technology Conference, Front Row Requested",
+      "status": "Requested",
+      "date": "2025-03-23",
+      "time": "N/A",
+      "user_aliases": ["technology conference"],
+      "feedback": null
+    },
+    {
+      "item": "TPS Conference Registration in Lisbon",
+      "status": "Requested",
+      "date": "2025-03-10",
+      "time": "N/A",
+      "user_aliases": ["TPS conference"],
+      "feedback": null
+    },
+    {
+      "item": "Floral Arrangement from Chanel",
+      "status": "Requested",
+      "date": "2025-03-25",
+      "time": "TBD",
+      "user_aliases": ["floral arrangement"],
+      "feedback": null
+    },
+    {
+      "item": "Incorrect Charge Clarification",
+      "status": "Open",
+      "date": "2025-03-26",
+      "time": "N/A",
+      "user_aliases": ["charge clarification"],
+      "feedback": null
+    },
+    {
+      "item": "Off-site Business Meeting Venue Change",
+      "status": "Requested",
+      "date": "2025-03-28",
+      "time": "N/A",
+      "user_aliases": ["venue change"],
+      "feedback": null
+    },
+    {
+      "item": "Cocktail-Making Class in Napa Valley",
+      "status": "Requested",
+      "date": "TBD",
+      "time": "TBD",
+      "user_aliases": ["cocktail-making class"],
+      "feedback": null
+    },
+    {
+      "item": "Opera at La Scala",
+      "status": "Completed",
+      "date": "2025-03-30",
+      "time": "TBD",
+      "user_aliases": ["opera"],
+      "feedback": "The opera at La Scala was lovely, would visit again."
+    },
+    {
+      "item": "Yacht Rental Confirmation",
+      "status": "Pending",
+      "date": "2025-04-18",
+      "time": "TBD",
+      "user_aliases": ["yacht rental"],
+      "feedback": null
+    },
+    {
+      "item": "Table with a View at Gordon Ramsay's in Vegas",
+      "status": "Requested",
+      "date": "2025-04-15",
+      "time": "TBD",
+      "user_aliases": ["table with a view"],
+      "feedback": null
+    },
+    {
+      "item": "Mandarin-Speaking Guide in Beijing",
+      "status": "Requested",
+      "date": "2025-04-17",
+      "time": "TBD",
+      "user_aliases": ["mandarin guide"],
+      "feedback": null
+    },
+    {
+      "item": "Museum Tickets for the Sold-Out Exhibit",
+      "status": "Requested",
+      "date": "2025-04-08",
+      "time": "TBD",
+      "user_aliases": ["museum tickets"],
+      "feedback": null
+    },
+    {
+      "item": "Limo Service Cancellation and Town Car Service Switch",
+      "status": "Requested",
+      "date": "2025-04-10",
+      "time": "Saturday",
+      "user_aliases": ["limo service cancellation"],
+      "feedback": null
+    },
+    {
+      "item": "Dining at Per Se",
+      "status": "Completed",
+      "date": "2025-04-15",
+      "time": "TBD",
+      "user_aliases": ["dining at Per Se"],
+      "feedback": "Dining at Per Se was outstanding, thank you."
+    },
+    {
+      "item": "Chartered Flight to Aspen",
+      "status": "Requested",
+      "date": "2025-12-18",
+      "time": "TBD",
+      "user_aliases": ["chartered flight"],
+      "feedback": null
+    },
+    {
+      "item": "Charge Surcharge Clarification",
+      "status": "Open",
+      "date": "2025-04-16",
+      "time": "N/A",
+      "user_aliases": ["charge surcharge"],
+      "feedback": null
+    },
+    {
+      "item": "My Usual Table at Il Mulino",
+      "status": "Requested",
+      "date": "2025-04-17",
+      "time": "TBD",
+      "user_aliases": ["usual table"],
+      "feedback": null
+    }
+  ]
+}

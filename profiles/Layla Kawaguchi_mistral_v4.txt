@@ -1,0 +1,191 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "VD-213456",
+  "contact_info": {
+    "phone": "987-654-3210"
+  },
+  "preferences": {
+    "seat": "aisle",
+    "hotel_amenities": ["extra pillows", "heating pad"],
+    "allergies": ["none"],
+    "other": ["jet charter from JFK to St. Barts on February 14th", "double-check guest list for gala reservations", "Tesla Model S rental in LA", "earlier annual trip to Aspen", "chef's table at Alinea", "vegan options for meals", "bespoke suit fitting at Savile Row", "Mercedes sedan at Nice airport", "city views rooms", "beach property in Mykonos", "backstage access to the concert", "Sushi Nakazawa reservation", "private yoga session at Aman Spa Bali", "chauffeur-driven Bentley for London stay", "private yoga lessons", "boarding kennel for dogs", "wine tasting tour in Napa Valley", "multi-city tour of South America", "fusion restaurant in Paris", "on-site childcare during villa stay", "conference suite for meeting"]
+  },
+  "trips_and_events": [
+    {
+      "item": "Cannes Film Festival",
+      "status": null,
+      "request_date": null,
+      "event_date": null,
+      "user_aliases": ["jet charter from JFK to St. Barts on February 14th"],
+      "feedback": null
+    },
+    {
+      "item": "Gala reservations",
+      "status": "Pending",
+      "request_date": "2025-09-25",
+      "event_date": "2025-02-03",
+      "user_aliases": ["shift the gala reservations to February 3"],
+      "feedback": null
+    },
+    {
+      "item": "Annual trip to Aspen",
+      "status": "Requested",
+      "request_date": "2025-09-26",
+      "event_date": null,
+      "user_aliases": ["shift the annual trip to Aspen earlier this year"],
+      "feedback": null
+    },
+    {
+      "item": "Chef's table at Alinea",
+      "status": "Requested",
+      "request_date": "2025-10-07",
+      "event_date": null,
+      "user_aliases": ["secure a reservation at the chef's table"],
+      "feedback": null
+    },
+    {
+      "item": "Vegan options for meals",
+      "status": "Requested",
+      "request_date": "2025-10-01",
+      "event_date": null,
+      "user_aliases": ["can I get vegan options for the meals"],
+      "feedback": null
+    },
+    {
+      "item": "Bespoke suit fitting at Savile Row",
+      "status": "Requested",
+      "request_date": "2025-10-06",
+      "event_date": null,
+      "user_aliases": ["can you arrange a bespoke suit fitting"],
+      "feedback": null
+    },
+    {
+      "item": "Mercedes sedan at Nice airport",
+      "status": "Requested",
+      "request_date": "2025-10-08",
+      "event_date": "2025-10-20",
+      "user_aliases": ["arrange for a Mercedes sedan"],
+      "feedback": null
+    },
+    {
+      "item": "Beach property in Mykonos",
+      "status": "Completed",
+      "request_date": "2025-10-12",
+      "event_date": null,
+      "user_aliases": ["the beach property in Mykonos was a hit"],
+      "feedback": "Positive"
+    },
+    {
+      "item": "Backstage access to the concert",
+      "status": "Requested",
+      "request_date": "2025-10-13",
+      "event_date": null,
+      "user_aliases": ["is it a possibility to gain backstage access"],
+      "feedback": null
+    },
+    {
+      "item": "Sushi Nakazawa reservation",
+      "status": "Requested",
+      "request_date": "2025-10-13",
+      "event_date": null,
+      "user_aliases": ["can you change the restaurant booking"],
+      "feedback": null
+    },
+    {
+      "item": "Private yoga session at Aman Spa Bali",
+      "status": "Requested",
+      "request_date": "2025-10-18",
+      "event_date": null,
+      "user_aliases": ["can you schedule a private yoga session"],
+      "feedback": null
+    },
+    {
+      "item": "Business class seats for a flight from SFO to JFK",
+      "status": "Requested",
+      "request_date": "2025-10-19",
+      "event_date": null,
+      "user_aliases": ["please secure two private yoga lessons"],
+      "feedback": null
+    },
+    {
+      "item": "Boarding kennel for dogs",
+      "status": "Requested",
+      "request_date": "2025-10-25",
+      "event_date": null,
+      "user_aliases": ["can you arrange a boarding kennel"],
+      "feedback": null
+    },
+    {
+      "item": "Wine tasting tour in Napa Valley",
+      "status": "Requested",
+      "request_date": "2025-10-28",
+      "event_date": null,
+      "user_aliases": ["can you arrange a wine tasting tour"],
+      "feedback": null
+    },
+    {
+      "item": "Correction of concert ticket date",
+      "status": "Requested",
+      "request_date": "2025-10-28",
+      "event_date": null,
+      "user_aliases": ["the concert tickets have an incorrect date"],
+      "feedback": null
+    },
+    {
+      "item": "Fusion restaurant in Paris",
+      "status": "Requested",
+      "request_date": "2025-10-29",
+      "event_date": null,
+      "user_aliases": ["I'd love to try the new fusion restaurant"],
+      "feedback": null
+    },
+    {
+      "item": "Multi-city tour of South America",
+      "status": "Requested",
+      "request_date": "2025-10-29",
+      "event_date": null,
+      "user_aliases": ["I'd like to arrange a multi-city tour"],
+      "feedback": null
+    },
+    {
+      "item": "On-site childcare during villa stay",
+      "status": "Requested",
+      "request_date": "2025-11-05",
+      "event_date": null,
+      "user_aliases": ["can you set up on-site childcare"],
+      "feedback": null
+    },
+    {
+      "item": "Conference suite for meeting",
+      "status": "Requested",
+      "request_date": "2025-11-08",
+      "event_date": "2025-11-09",
+      "user_aliases": ["I want to book the conference suite"],
+      "feedback": null
+    },
+    {
+      "item": "Payment issue",
+      "status": "Requested",
+      "request_date": "2025-11-08",
+      "event_date": null,
+      "user_aliases": ["The payment of $750 seems to have been deducted twice"],
+      "feedback": null
+    },
+    {
+      "item": "Feedback on resort adjustments",
+      "status": "Requested",
+      "request_date": "2025-11-01",
+      "event_date": null,
+      "user_aliases": ["We'd like immediate feedback on our requested resort adjustments"],
+      "feedback": null
+    },
+    {
+      "item": "Missing return flight",
+      "status": "Requested",
+      "request_date": "2025-11-04",
+      "event_date": null,
+      "user_aliases": ["My return flight next Thursday is missing"],
+      "feedback": null
+    }
+  ]
+}

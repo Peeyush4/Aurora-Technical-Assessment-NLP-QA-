@@ -1,0 +1,54 @@
+{
+  "name": "Unnamed Client",
+  "contact_preferences": {
+    "email": true,
+    "phone": true,
+    "text": false
+  },
+  "travel_history": [
+    {
+      "destination": "Paris",
+      "date": "2023-05-07",
+      "accommodation": "Ritz Paris",
+      "transportation": "Rolls-Royce",
+      "preferences": ["city view", "non-smoking"]
+    },
+    {
+      "destination": "Hawaii",
+      "date": "2023-06-15",
+      "accommodation": null,
+      "transportation": null,
+      "preferences": ["privacy", "discretion"]
+    },
+    {
+      "destination": "Bali",
+      "date": "2023-08-01",
+      "accommodation": null,
+      "transportation": null,
+      "spa_preferences": ["couple's massage"]
+    }
+  ],
+  "dining_preferences": {
+    "city": ["New York", "London"],
+    "cuisine": ["French", "Italian"],
+    "dislikes": ["Soho"]
+  },
+  "event_preferences": {
+    "jazz": true,
+    "sports": true,
+    "cultural_immersive_tours": true
+  },
+  "luggage": {
+    "suitcase_size": null
+  },
+  "special_requests": [
+    "Negotiate $750 invoice from Waldorf Astoria",
+    "Avoid recommending any restaurant in Soho"
+  ],
+  "passport": {
+    "number": "987654321"
+  },
+  "covid_restrictions": {
+    "Switzerland": null
+  }
+}

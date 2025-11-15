@@ -1,0 +1,36 @@
+{
+  "name": "Richie",
+  "email": "richie1945@luxlife.com",
+  "phone_numbers": [
+    "5544336677"
+  ],
+  "preferences": {
+    "room": {
+      "ocean_view": true,
+      "fully_stocked_espresso_machine": true,
+      "twinings_tea_collection": true
+    },
+    "flights": {
+      "window_seat": true
+    },
+    "dining": {
+      "no_dairy": true,
+      "no_seafood": true,
+      "shellfish_allergy": true
+    },
+    "travel": {
+      "car": "limousine",
+      "yacht": null, // No yacht preference specified
+      "aircraft": "Gulfstream G650"
+    },
+    "events": {
+      "private_photoshoot": true,
+      "private_tasting": true,
+      "private_shopping_experience": true
+    },
+    "guides": {
+      "english_speaking": true
+    }
+  },
+  "allergies": ["shellfish"]
+}

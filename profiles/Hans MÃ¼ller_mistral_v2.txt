@@ -1,0 +1,77 @@
+{
+  "name": "Undisclosed",
+  "email": null,
+  "phone_number": null,
+  "preferred_contact_method": "Email",
+  "vip_status": true,
+  "travel_history": [
+    {
+      "destination": "Tokyo",
+      "date": "2023-05-19"
+    },
+    {
+      "destination": "Sydney",
+      "date": null
+    },
+    {
+      "destination": "Monaco",
+      "date": null
+    },
+    {
+      "destination": "Kyoto",
+      "date": null
+    },
+    {
+      "destination": "Rome",
+      "date": null
+    }
+  ],
+  "accommodation_preferences": {
+    "smoking": false,
+    "non-smoking": true
+  },
+  "dining_preferences": [
+    {
+      "cuisine": "Italian",
+      "location": "Cipriani"
+    },
+    {
+      "cuisine": null,
+      "location": "The Ledbury"
+    },
+    {
+      "cuisine": "Fine Dining",
+      "location": "The French Laundry"
+      // Add more preferences as they appear in the conversation
+    }
+  ],
+  "event_preferences": [
+    {
+      "event": "Art Basel Miami Beach",
+      "vip_access": true
+    },
+    {
+      "event": "Wimbledon",
+      "vip_seats": true
+    },
+    {
+      "event": "Lakers game",
+      // Add more events as they appear in the conversation
+    }
+  ],
+  "transportation_preferences": [
+    {
+      "type": "Private Jet",
+      "destination": "Monaco"
+    },
+    {
+      "type": "Classic Car",
+      "location": "Rome"
+    },
+    {
+      "type": "Yacht Charter",
+      "date": "2023-12-27"
+      // Add more preferences as they appear in the conversation
+    }
+  ]
+}

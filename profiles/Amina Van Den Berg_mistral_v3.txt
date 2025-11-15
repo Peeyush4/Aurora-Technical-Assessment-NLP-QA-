@@ -1,0 +1,50 @@
+{
+  "client_id": "ClientID",
+  "name": "Not specified",
+  "email": "Not specified",
+  "preferences": {
+    "flight": {
+      "airline": "Not specified",
+      "cabin_class": "Not specified",
+      "preferred_airport": "Not specified"
+    },
+    "hotel": {
+      "brand": "Not specified",
+      "room_type": "Not specified",
+      "preferred_address": {
+        "street_address": "14 Rue Debelleyme, Paris 75003",
+        "city": "Paris",
+        "country": "France"
+      },
+      "amenities": [
+        "baby grand piano",
+        "hypoallergenic bedding"
+      ]
+    },
+    "transportation": {
+      "preferred_vehicle": "Mercedes S-Class",
+      "limousine": true
+    },
+    "events": {
+      "music": [
+        "front-row seats for concerts in Las Vegas"
+      ],
+      "art": [
+        "exclusive gallery access worldwide",
+        "private tour of the Louvre",
+        "find me an art exhibit exclusive viewing at Tate Modern for November 20th"
+      ]
+    },
+    "dining": {
+      "preferred_restaurants": [
+        "Nobu in Malibu"
+      ],
+      "preferred_meal_time": "5 PM sharp"
+    },
+    "personal_shopper": true,
+    "subscriptions": {
+      "status": "issue with annual subscription auto-renewal",
+      "subscription_type": "Not specified"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Clark Luxury",
+  "email": "clarlux2025@mail.com",
+  "phone_number": "555-349-7841",
+  "preferences": {
+    "room": {
+      "espresso_machine": true,
+      "down_filled_pillows": true
+    },
+    "spa": [],
+    "restaurant": [],
+    "event": []
+  },
+  "special_requests": [
+    "personalized attention",
+    "preferred seating for events",
+    "upgrade pet's boarding to luxury suite"
+  ],
+  "frequent_destinations": ["Maldives", "Tokyo", "Paris", "Milan", "Kyoto"]
+}

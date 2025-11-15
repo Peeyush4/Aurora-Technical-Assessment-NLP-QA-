@@ -1,0 +1,60 @@
+{
+  "name": "High-End Traveler",
+  "email": "highendtravel@example.com",
+  "contact_preferences": {
+    "email": true,
+    "sms": false,
+    "phone_call": false
+  },
+  "interests": [
+    "Luxury Travel",
+    "Fine Dining",
+    "Exclusive Events",
+    "Yacht Rentals",
+    "Private Chefs",
+    "Art Showings",
+    "Upscale Dining"
+  ],
+  "allergies": ["Gluten"],
+  "preferences": {
+    "hotel_room": {
+      "window_seat": true,
+      "pet_friendly": false
+    },
+    "dining": {
+      "spice_level": "high",
+      "michelin_star_only": true
+    }
+  },
+  "frequent_destinations": [
+    "Paris",
+    "New York",
+    "London",
+    "Tokyo",
+    "Bali",
+    "Dubai",
+    "Santorini"
+  ],
+  "past_issues": [
+    {
+      "issue": "Extra charge on bill",
+      "location": "Santorini",
+      "date": "2025-02-12"
+    },
+    {
+      "issue": "Payment dispute",
+      "date": "2025-02-04"
+    },
+    {
+      "issue": "Missing refund for canceled flight",
+      "date": "2025-02-20"
+    }
+  ],
+  "notifications": [
+    {
+      "type": "email",
+      "content": "Reminder for no errors in service next time.",
+      "date": "2025-02-26"
+    }
+  ]
+}

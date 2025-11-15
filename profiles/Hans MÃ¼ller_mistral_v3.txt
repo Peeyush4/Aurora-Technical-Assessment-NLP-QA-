@@ -1,0 +1,34 @@
+{
+  "name": "High End Client",
+  "email": "high_end_client@email.com",
+  "preferred_communication": ["email"],
+  "dietary_restrictions": ["gluten-free", "dairy-free"],
+  "hotel_preferences": {
+    "room_type": "suite",
+    "view_preference": "sea view"
+  },
+  "travel_history": [
+    {
+      "destination": "New York",
+      "date": "2025-10-02",
+      "service_requests": ["car service"]
+    },
+    {
+      "destination": "Paris",
+      "date": "2025-10-15",
+      "service_requests": ["flight"]
+    }
+  ],
+  "upcoming_events": [
+    {
+      "event_name": "Friday breakfast engagement",
+      "location": null,
+      "date": "2025-10-14"
+    }
+  ],
+  "special_requests": [
+    "Remind me of my Friday breakfast engagement location.",
+    "Organize a chauffeur to drive me around Amsterdam this week.",
+    "Arrange a private cooking class with Chef Gordon."
+  ]
+}

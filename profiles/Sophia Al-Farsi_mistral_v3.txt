@@ -1,0 +1,49 @@
+{
+  "name": "Unnamed",
+  "email": null,
+  "phone_number": null,
+  "preferred_location": [
+    "Paris",
+    "New York City",
+    "Santorini",
+    "Singapore",
+    "Copenhagen",
+    "Zermatt",
+    "Capri",
+    "St. Tropez"
+  ],
+  "preferred_cuisine": [
+    "Fusion cuisine"
+  ],
+  "event_interests": [
+    "Gallery viewing",
+    "Symposium",
+    "Jazz Festival",
+    "Ballet performance"
+  ],
+  "activity_interests": [
+    "Private dining with a top Parisian chef",
+    "Sailing tour on the Amalfi Coast",
+    "Distillery tour"
+  ],
+  "accommodation_preferences": [
+    "Suite",
+    "Villa (5 bedrooms)",
+    "Penthouse",
+    "Hotel rooms on higher floors"
+  ],
+  "view_preferences": [
+    "Unobstructed mountain views"
+  ],
+  "security_concerns": [
+    "Fortifying measures for personal flights"
+  ],
+  "yacht_rental": [
+    {
+      "location": "Caribbean",
+      "date_range": [
+        "January"
+      ]
+    }
+  ]
+}

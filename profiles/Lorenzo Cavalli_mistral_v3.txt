@@ -1,0 +1,55 @@
+{
+  "name": "High-end Traveler",
+  "email": "[redacted]",
+  "phone_number": "[redacted]",
+  "preferences": {
+    "travel_style": ["luxury", "romantic"],
+    "cuisine": ["sushi", "Italian", "Greek"],
+    "art": ["contemporary"],
+    "hotel_amenities": ["library", "spa", "wheelchair access"],
+    "transportation": ["Lamborghini", "private jet", "yacht"],
+    "drink": ["champagne", "Glenfiddich 40-year-old"]
+  },
+  "travel_history": [
+    {
+      "destination": "Monaco",
+      "date": "11th"
+    },
+    {
+      "destination": "Iceland",
+      "date": ""
+    }
+  ],
+  "upcoming_trips": [
+    {
+      "destination": "Maldives",
+      "transportation": "yacht",
+      "notes": "Needs private yacht for stay"
+    },
+    {
+      "destination": "Santorini",
+      "date": "anniversary",
+      "notes": "Private dining experience requested"
+    }
+  ],
+  "requests": [
+    {
+      "request_type": "personal shopper",
+      "location": "Milan"
+    },
+    {
+      "request_type": "account access",
+      "issue": "difficulty accessing account online"
+    }
+  ],
+  "complaints": [
+    {
+      "event": "concert artist's performance was uninspiring",
+      "resolution_status": "pending"
+    },
+    {
+      "event": "overcharge of $4,500",
+      "resolution_status": "pending"
+    }
+  ]
+}

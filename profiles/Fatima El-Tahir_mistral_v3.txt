@@ -1,0 +1,46 @@
+{
+  "first_name": "User",
+  "last_name": null,
+  "email": null,
+  "phone_number": null,
+  "address": {
+    "street_address": null,
+    "city": null,
+    "state": null,
+    "postal_code": null,
+    "country": null
+  },
+  "billing_address": {
+    "street_address": null,
+    "city": null,
+    "state": null,
+    "postal_code": null,
+    "country": null
+  },
+  "shipping_address": {
+    "street_address": null,
+    "city": null,
+    "state": null,
+    "postal_code": null,
+    "country": null
+  },
+  "profile_picture": null,
+  "date_of_birth": null,
+  "preferred_name": null,
+  "gender": null,
+  "allergies": ["shellfish"],
+  "dietary_restrictions": null,
+  "preferred_contact_method": null,
+  "account_creation_date": null,
+  "last_login_date": null,
+  "last_activity_date": null,
+  "membership_level": null,
+  "loyalty_points": null,
+  "rewards": [],
+  "wishlist": [],
+  "purchase_history": [],
+  "favorite_destinations": [],
+  "favorite_activities": [],
+  "favorite_restaurants": [],
+  "notes": []
+}

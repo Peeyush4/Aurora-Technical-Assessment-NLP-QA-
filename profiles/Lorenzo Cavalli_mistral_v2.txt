@@ -1,0 +1,43 @@
+{
+  "id": "User-12345",
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "preferences": {
+    "accommodation_type": "Penthouse Suite",
+    "hotel_chain": "Four Seasons",
+    "room_view": "Sea View",
+    "dining": [
+      {
+        "restaurant": "Noma",
+        "location": "Copenhagen"
+      },
+      {
+        "restaurant": "Le Bernardin",
+        "locations": ["New York", "Paris"]
+      },
+      {
+        "restaurant": "Nobu",
+        "locations": ["London", "Dubai"]
+      }
+    ],
+    "flight_preferences": {
+      "airline": "Emirates",
+      "cabin_class": "First Class"
+    },
+    "special_requests": [
+      "No extra feather pillows due to allergies",
+      "Daily delivery of Financial Times and WSJ to suite"
+    ],
+    "villa_preferences": {
+      "location": "Maldives",
+      "size": "6 bedrooms"
+    },
+    "event_planning": [
+      {
+        "type": "wedding anniversary celebration",
+        "coordination": "flawless"
+      }
+    ]
+  },
+  "allergies": ["feathers"]
+}

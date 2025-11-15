@@ -1,0 +1,52 @@
+{
+  "name": "High Net Worth Individual",
+  "contact_info": {
+    "email": "[redacted]",
+    "phone": "789-654-3210"
+  },
+  "addresses": [
+    {
+      "street_address": "489 Madison Ave",
+      "suite_number": "401",
+      "city": "Chicago",
+      "state": "IL",
+      "zip_code": "60654"
+    }
+  ],
+  "preferences": {
+    "flowers": {
+      "type": "orchids",
+      "placement": "room upon arrival"
+    },
+    "welcome_amenities": {
+      "items": ["specific items"]
+    },
+    "dietary_restrictions": "low in sodium during flights",
+    "cuisine_preference": "Asian",
+    "accommodation_type": "villa with round-the-clock butler service"
+  },
+  "travel_history": {
+    "upcoming_trips": [
+      {
+        "destination": "Los Angeles",
+        "dates": "[date]",
+        "accommodation": "Amangiri (Canyon Point Spa booking included)",
+        "events": ["U2 concert (front-row seats)"],
+        "transportation": "Tesla from airport"
+      }
+    ],
+    "past_trips": [
+      {
+        "destination": "Italy",
+        "dates": "[date]",
+        "accommodation": "Villa (round-the-clock butler service)",
+        "activities": ["cooking class in Naples"]
+      }
+    ]
+  },
+  "luxury_goods": {
+    "watches": ["specific luxury timepieces"],
+    "jewelry": ["Boucheron earrings"],
+    "vintage_wine": ["specific vintage wine for collection"]
+  }
+}

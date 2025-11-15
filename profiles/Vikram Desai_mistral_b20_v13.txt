@@ -1,0 +1,198 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "1234567890",
+  "contact_info": {
+    "phone": "+123-456-7890",
+    "email": "viktor@example.com",
+    "address": "742 Evergreen Terrace",
+    "passport": "987654321"
+  },
+  "preferences": {
+    "seat": "aisle", // New preference from the message at 2025-08-07 11:03:09.166968+00:00
+    "hotel_amenities": ["Jacuzzi", "fragrance-free"],
+    "allergies": ["shellfish"],
+    "other": [
+      "Dom Perignon",
+      "chef's table",
+      "wellness retreat",
+      "local guide for pyramids",
+      "personal trainer",
+      "exclusive after-party in Miami",
+      "personal shopper in Milan",
+      "one-on-one meetings at Tech Expos",
+      "presidential suite at the Ritz in London",
+      "charter flight to Punta Cana",
+      "The Ivy for dinner",
+      "tennis coach billing",
+      "Bali villa payment",
+      "event tickets for charity gala"
+    ]
+  },
+  "trips_and_events": [
+    // Updated events based on user feedback and new requests
+    {
+      "item": "Moet & Chandon tour in Epernay",
+      "status": "",
+      "request_date": "2025-05-09",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Virtual reality golfing experience at home",
+      "status": "Requested",
+      "request_date": "2025-06-22 10:50:03.167906+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Chef to prepare a special dinner during stay",
+      "status": "Requested",
+      "request_date": "2025-06-22 09:53:53.161183+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Stila Hyaluronic Hydration Powder in room upon arrival",
+      "status": "Requested",
+      "request_date": "2025-06-29 10:47:50.175247+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Extra baggage allowances on flight for heavy equipment",
+      "status": "Requested",
+      "request_date": "2025-06-30 10:47:50.175247+00:00",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Exclusive wine tasting this Thursday", // New event from the message at 2025-08-07 11:03:09.166968+00:00
+      "status": "",
+      "request_date": "2025-08-05", // Assuming the request was made on August 5th (the date of the message)
+      "event_date": "2025-08-10", // Thursdays are usually between Wednesdays and Fridays, so assuming this Thursday is Aug 10th
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "May Day Parade weekend", // New event from the message at 2025-08-12 04:00:59.165593+00:00
+      "status": "",
+      "request_date": "2025-08-12",
+      "event_date": "2025-05-01", // Assuming May Day is on the 1st of May
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Hypoallergenic room", // New preference from the message at 2025-08-14 02:33:35.162100+00:00
+      "status": "",
+      "request_date": "2025-08-14",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Paris cancellation", // New event from the message at 2025-08-14 12:19:46.172177+00:00
+      "status": "Cancelled",
+      "request_date": "2025-08-14",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Concert was fantastic", // New feedback from the message at 2025-08-15 04:20:43.168027+00:00
+      "status": "",
+      "request_date": "2025-08-15", // Assuming the concert was on August 15th (the date of the message)
+      "event_date": "2025-08-15",
+      "user_aliases": [],
+      "feedback": ["The concert was fantastic."]
+    },
+    {
+      "item": "Dinner reservation change", // New event from the message at 2025-08-16 15:30:42.168134+00:00
+      "status": "",
+      "request_date": "2025-08-16",
+      "event_date": "2025-08-17", // Assuming the change is for tomorrow (the day after the message)
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Helicopter island tour booking in Fiji", // New event from the message at 2025-08-17 21:33:22.169789+00:00
+      "status": "",
+      "request_date": "2025-08-17",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Luxury catamaran in Cancun", // New event from the message at 2025-08-18 04:52:26.173327+00:00
+      "status": "",
+      "request_date": "2025-08-18",
+      "event_date": "2025-12-31", // Assuming New Year's Eve is on December 31st
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Quiet room overlooking the park in New York", // New event from the message at 2025-08-20 13:35:18.167379+00:00
+      "status": "",
+      "request_date": "2025-08-20",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Billing for the private island was confusing", // New event from the message at 2025-08-20 15:07:29.172261+00:00
+      "status": "",
+      "request_date": "2025-08-20",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Piano in hotel room in Vienna", // New event from the message at 2025-08-21 02:55:22.167962+00:00
+      "status": "",
+      "request_date": "2025-08-21",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Art galleries to visit in Florence", // New event from the message at 2025-08-21 17:46:50.170425+00:00
+      "status": "",
+      "request_date": "2025-08-21",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Ritz-Carlton Club Level in Tokyo", // New event from the message at 2025-08-22 02:09:08.169717+00:00
+      "status": "",
+      "request_date": "2025-08-22",
+      "event_date": "2025-12-05", // Assuming December 5th is the first day of the requested period (Dec 5 to 10)
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Trip notifications for aide@example.com", // New event from the message at 2025-08-22 08:09:08.169443+00:00
+      "status": "",
+      "request_date": "2025-08-22",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Fairmont Maldives suite confirmation", // New event from the message at 2025-08-22 23:57:30.171193+00:00
+      "status": "",
+      "request_date": "2025-08-22",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    }
+  ],
+  "trips_and_events_feedback": [
+    // Feedback will be added here as it becomes available.
+    ["The concert was fantastic."]
+  ]
+}

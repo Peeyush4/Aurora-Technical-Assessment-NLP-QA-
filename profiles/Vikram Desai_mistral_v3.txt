@@ -1,0 +1,22 @@
+{
+  "name": "Ultra Luxe Traveler",
+  "preferences": {
+    "accommodation": ["hotel", "resort", "villa", "yacht"],
+    "activities": ["skiing", "sailing", "fishing", "golfing", "dining", "shopping", "art gallery visits", "concerts", "opera", "skydiving"],
+    "location": ["Aspen", "Mediterranean", "Dubai", "Lyon", "Tokyo", "Hong Kong", "St. Moritz", "Florence", "New York City"],
+    "meals": ["fine dining", "private dining", "surprise private dining", "pop-up booksellers for literary interests"],
+    "transportation": ["limo service", "car and driver", "charter flights", "private yacht rental"],
+    "room_preferences": {
+      "temperature": 72,
+      "type": ["suite"]
+    },
+    "special_requests": ["hypoallergenic products", "electric car charging stations", "sensitive skin", "Renaissance art highlights", "private guide for shopping"],
+    "past_experience": ["outstanding service", "perfect concert tickets", "terrific restaurant recommendation"]
+  },
+  "frequent_destinations": ["Aspen", "Dubai", "Lyon", "Tokyo", "Hong Kong", "St. Moritz"],
+  "notes": [
+    "Always requests suite room 502, prefers yacht rental for Mediterranean cruises and private dining experiences",
+    "Needs a car and driver in New York City for December 9th",
+    "Missed connection and needs a hotel for tonight"
+  ]
+}

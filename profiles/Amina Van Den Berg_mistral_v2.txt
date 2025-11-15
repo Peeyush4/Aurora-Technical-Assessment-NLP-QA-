@@ -1,0 +1,48 @@
+{
+  "name": "High-End Travel Client",
+  "contact_preference": {
+    "email": "client@example.com",
+    "phone": "+1234567890"
+  },
+  "travel_history": [
+    {
+      "destination": "Paris",
+      "hotel": "Hotel Ritz Paris",
+      "duration": "7 nights",
+      "date_of_stay": "May 2023"
+    },
+    {
+      "destination": "New York",
+      "hotel": "The Plaza Hotel New York",
+      "duration": "5 nights",
+      "date_of_stay": "June 2023"
+    }
+  ],
+  "special_requests": [
+    {
+      "request_type": "seating",
+      "preference": "aisle seat"
+    },
+    {
+      "request_type": "dining",
+      "preference": "Michelin-starred restaurants"
+    },
+    {
+      "request_type": "activities",
+      "preference": [
+        "hot air balloon rides",
+        "golf tee times at Pebble Beach"
+      ]
+    }
+  ],
+  "travel_preferences": {
+    "max_flying_time": 4,
+    "airline": "Air France",
+    "hotel_category": "luxury"
+  },
+  "next_trip": {
+    "destination": "Rome",
+    "duration": "5 nights",
+    "date_of_stay": "July 2023"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Unnamed User",
+  "email": "",
+  "phone_number": "",
+  "preferences": {
+    "diet": ["Vegetarian"],
+    "aversions": ["Seafood"],
+    "allergies": [],
+    "special_requests": [
+      "Avoid caviar",
+      "Request vegan options at dinner"
+    ],
+    "business_class": true,
+    "executive_assistance": true,
+    "car_preferences": {
+      "wifi": true
+    },
+    "event_types": ["Exclusive events", "Family events"],
+    "cuisine_preferences": ["Japanese", "Italian"]
+  },
+  "bookings": [
+    {
+      "destination": "Tokyo",
+      "date": "2025-01-30",
+      "type": "Flight",
+      "class": "Business"
+    },
+    {
+      "destination": "Key West",
+      "date": "",
+      "type": "Hotel",
+      "rating": 4.5
+    },
+    {
+      "destination": "Shanghai",
+      "date": "",
+      "type": "Hotel",
+      "rooftop_pool": true
+    },
+    {
+      "destination": "Aspen",
+      "date": "",
+      "type": "Ski equipment"
+    }
+  ],
+  "events": [
+    {
+      "event_name": "South African safari",
+      "date": "April"
+    },
+    {
+      "event_name": "Opera in Vienna",
+      "date": "Next month"
+    },
+    {
+      "event_name": "Oscar after-party event",
+      "date": ""
+    },
+    {
+      "event_name": "Taj Mahal tour",
+      "date": "Next week"
+    },
+    {
+      "event_name": "Wellness retreat in Bali",
+      "date": "Third week of January"
+    }
+  ]
+}

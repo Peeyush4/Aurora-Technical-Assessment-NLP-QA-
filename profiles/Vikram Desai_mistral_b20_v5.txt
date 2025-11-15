@@ -1,0 +1,194 @@
+{
+  "name": "Vikram Desai",
+  "email": "viktor@example.com",
+  "phone": "+123-456-7890",
+  "contact_info": {
+    "new_emergency_contact": "789-654-3210"
+  },
+  "preferences": {
+    "chess_level": "Grandmaster",
+    "cosmetics_personal_care_items": false,
+    "mineral_water_brand": "Preferred Brand",
+    "helicopter_transfer": true,
+    "art_gallery_tour_status": null,
+    "adele_concert_tickets": true,
+    "hotel_suite": "Corner Deluxe",
+    "hotel_change": true,
+    "skiing_instructors": ["Replacement Riders"],
+    "discrepancy_transaction": true,
+    "harrods_shopping_tour": true,
+    "singapore_connection": "Seamless",
+    "executive_membership": true,
+    "gluten_free_menu": true,
+    "napa_valley_wine_tasting": true,
+    "dubai_gulfstream": true,
+    "concert_vip": true,
+    "art_show_intelligence": true,
+    "backstage_meet_and_greet": null,
+    "arrival_flowers": "Orchids",
+    "car_preference": "Impeccable Service",
+    "room_amenities": "usual welcome amenities"
+  },
+  "trips_and_events": [
+    {
+      "item": "Singapore Trip",
+      "status": "Pending",
+      "request_date": "2025-01-10",
+      "event_date": null,
+      "user_aliases": ["Itinerary Resend"],
+      "feedback": null
+    },
+    {
+      "item": "Hotel Room Issue",
+      "status": "Open",
+      "request_date": "2025-01-28",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": "The hotel room lacked my usual welcome amenities."
+    },
+    {
+      "item": "Bulgari Resort Details",
+      "status": "Open",
+      "request_date": "2025-01-28",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Spa Appointment",
+      "status": "Open",
+      "request_date": "2025-01-31",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Vintage Wine Purchase",
+      "status": "Open",
+      "request_date": "2025-01-31",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Spa Charge Clarification",
+      "status": "Open",
+      "request_date": "2025-02-01",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": "Kindly send clarifications on why I was charged extra for spa service."
+    },
+    {
+      "item": "Flowers in Room",
+      "status": "Open",
+      "request_date": "2025-02-03",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": "Kindly send clarifications on why I was charged extra for spa service."
+    },
+    {
+      "item": "Dinner Reservations at Per Se",
+      "status": "Open",
+      "request_date": "2025-02-04",
+      "event_date": "December 10th",
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Payment Issue",
+      "status": "Open",
+      "request_date": "2025-02-04",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": "I'm seeing a delay in processing my recent payment--can you help?"
+    },
+    {
+      "item": "Osteria Francescana Table",
+      "status": "Open",
+      "request_date": "2025-02-06",
+      "event_date": "next Tuesday lunch",
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Cannes Film Festival VIP Passes",
+      "status": "Open",
+      "request_date": "2025-02-12",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Mediterranean Cruise Tickets Delay",
+      "status": "Open",
+      "request_date": "2025-02-14",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Helicopter Service from Cannes to Monte Carlo",
+      "status": "Open",
+      "request_date": "2025-02-14",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Cooking Class Date Change",
+      "status": "Open",
+      "request_date": "2025-02-16",
+      "event_date": "June 7th",
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Butler Service",
+      "status": "Open",
+      "request_date": "2025-02-17",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": "I'd appreciate round-the-clock butler service during my stay at the villa."
+    },
+    {
+      "item": "U2 Concert Seats",
+      "status": "Open",
+      "request_date": "2025-02-17",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Asian Cuisine for Dinner in Hong Kong",
+      "status": "Open",
+      "request_date": "2025-02-19",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Amangiri Spa Booking",
+      "status": "Open",
+      "request_date": "2025-02-20",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Luxury Safari in South Africa",
+      "status": "Open",
+      "request_date": "2025-02-20",
+      "event_date": "December",
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Exclusive Wine Tasting Event",
+      "status": "Open",
+      "request_date": "2025-02-25",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    }
+  ]
+}

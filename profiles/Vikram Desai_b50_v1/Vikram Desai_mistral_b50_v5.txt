@@ -1,0 +1,45 @@
+```json
+{
+  "name": "VIP Customer",
+  "preferences": {
+    "hotel_room": "Presidential Suite",
+    "city": ["Paris", "London", "Vegas", "Miami", "Napa"],
+    "dining": {
+      "restaurant": ["Chez Panisse", "The Ivy"],
+      "cuisine": ["Italian", "British", "Californian", "French", "Japanese"],
+      "dietary_requirements": ["no shellfish"]
+    },
+    "spa": "unique services this month",
+    "credit_card": "4444-5555-6666-7777",
+    "visa": true,
+    "passport": true,
+    "charter_flight": ["Punta Cana"],
+    "events": {
+      "gala": true,
+      "movie_premiere": true,
+      "may_day_parade": true,
+      "cannes_festival": true
+    },
+    "special_requests": [
+      "sea-view rooms",
+      "hypoallergenic room",
+      "private wine cellar dinner",
+      "one-on-one meetings at Tech Expos",
+      "exclusive entry vouchers to the fashion museum in Paris",
+      "front-row concert experience"
+    ],
+    "feedback": [
+      "swift response for last-minute booking needs is much appreciated",
+      "kudos to your team for the impeccable arrangements for our anniversary",
+      "The concert was fantastic; I truly enjoyed the front-row experience, thanks again!"
+    ]
+  },
+  "issues": {
+    "payment_issue": true,
+    "museums": "not interested in them",
+    "dinner_reservation": "mix-up with my dinner reservation, can you sort it out?",
+    "credit_card_flagged": true,
+    "tennis_coach_billing": true
+  }
+}
+```

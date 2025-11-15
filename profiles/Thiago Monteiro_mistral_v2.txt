@@ -1,0 +1,22 @@
+{
+  "name": "Unnamed User",
+  "email": null,
+  "preferences": {
+    "travel_destination": ["Caribbean", "Mediterranean", "Maldives"],
+    "accommodation": ["Luxury Resort", "Presidential Suite"],
+    "activities": ["Sailing", "Wine Tasting", "Golfing"],
+    "dining": ["French Cuisine", "Italian Cuisine", "Japanese Sushi"],
+    "special_requests": ["Ocean-view Room", "Early Check-in", "High Tea Experience", "Personalized Cake", "Private Guide"]
+  },
+  "travel_history": [
+    {
+      "destination": "Private Island Getaway",
+      "date": "Recent"
+    },
+    {
+      "destination": "Monaco",
+      "date": "Recent"
+    }
+  ],
+  "loyalty_programs": ["Platinum Status with Airline X"]
+}

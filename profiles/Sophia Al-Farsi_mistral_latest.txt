@@ -1,0 +1,177 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "VD-2025",
+  "contact_info": {
+    "phone": null,
+    "email": null,
+    "address": "100 West Street, NY"
+  },
+  "preferences": {
+    "seat": null,
+    "hotel_amenities": ["terrace ocean view"],
+    "allergies": [],
+    "other": []
+  },
+  "trips_and_events": [
+    {
+      "item": "Helicopter transfer from Nice to Monaco",
+      "status": "Pending",
+      "request_date": "2025-10-09",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "New York Fashion Week invites",
+      "status": "Pending",
+      "request_date": "2025-09-29",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Yacht charter request",
+      "status": "Pending",
+      "request_date": "2025-10-01",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Private villa in Tuscany",
+      "status": "Pending",
+      "request_date": "2025-10-02",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Luxury SUV at LAX",
+      "status": "Pending",
+      "request_date": "2025-10-04",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Concert tickets",
+      "status": "Completed",
+      "request_date": "2025-10-07",
+      "event_date": null,
+      "user_aliases": ["concert package"],
+      "feedback": "The chef tasting menu in London was delightful"
+    },
+    {
+      "item": "Suite at the Ritz-Carlton in Tokyo",
+      "status": "Pending",
+      "request_date": "2025-10-21",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Private tour at the Louvre",
+      "status": "Pending",
+      "request_date": "2025-10-22",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "First-class tickets to Sydney",
+      "status": "Pending",
+      "request_date": "2025-10-30",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Ice Hotel in Jukkasjääri",
+      "status": "Pending",
+      "request_date": "2025-10-29",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Dinner reservation at L'Atelier",
+      "status": "Pending",
+      "request_date": "2025-10-29",
+      "event_date": "2025-11-10",
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Private tasting tour in Napa",
+      "status": "Pending",
+      "request_date": "2025-10-29",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Dining preference: Chef's tasting menu",
+      "status": "Noted",
+      "request_date": "2025-11-01",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Itinerary for African safari tour",
+      "status": "Pending",
+      "request_date": "2025-11-01",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Latest check-in time at Jumeirah Maldives",
+      "status": "Pending",
+      "request_date": "2025-11-01",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Direct line at work update",
+      "status": "Updated",
+      "request_date": "2025-11-03",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Payment review",
+      "status": "Pending",
+      "request_date": "2025-11-04",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Grand Canyon helicopter tour",
+      "status": "Completed",
+      "request_date": "2025-11-05",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": "The helicopter tour over the Grand Canyon was unforgettable"
+    },
+    {
+      "item": "Vegetarian meals at The Ritz",
+      "status": "Noted",
+      "request_date": "2025-11-07",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Four-star hotels only",
+      "status": "Noted",
+      "request_date": "2025-11-08",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    }
+  ]
+}

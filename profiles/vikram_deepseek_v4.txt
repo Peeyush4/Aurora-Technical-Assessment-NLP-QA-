@@ -1,0 +1,73 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "",
+  "contact_info": {
+    "phone": "+33 22 11 00 99",
+    "email": "",
+    "address": "987 Park Avenue, New York",
+    "passport": ""
+  },
+  "preferences": {
+    "seat": "",
+    "hotel_amenities": ["kitchenette"],
+    "allergies": [],
+    "other": ["yoga mats", "restaurant booking preferences"]
+  },
+  "trips_and_events": [
+    {
+      "date": "",
+      "description": "Birthday surprise for wife at restaurant",
+      "details": "Arranged on 2025-10-08"
+    },
+    {
+      "date": "",
+      "description": "Tailor-made suit measurement at Hotel Ritz, Paris",
+      "details": ""
+    },
+    {
+      "date": "",
+      "description": "Ballet tickets",
+      "details": ""
+    },
+    {
+      "date": "2025-10-27 to 2025-10-31",
+      "description": "Graduation",
+      "details": "Exclusive access"
+    },
+    {
+      "date": "",
+      "description": "Museum tours in Moscow",
+      "details": "For family"
+    },
+    {
+      "date": "",
+      "description": "Concert package",
+      "details": ""
+    },
+    {
+      "date": "",
+      "description": "Limousine service for events",
+      "details": ""
+    },
+    {
+      "date": "2025-12",
+      "description": "Gift curations for festive season",
+      "details": ""
+    },
+    {
+      "date": "",
+      "description": "Exclusive access to Michelin-starred restaurant",
+      "details": ""
+    },
+    {
+      "date": "",
+      "description": "Surprise dinner",
+      "details": ""
+    },
+    {
+      "date": "",
+      "description": "Olympics tickets",
+      "details": ""
+    }
+  ]
+}

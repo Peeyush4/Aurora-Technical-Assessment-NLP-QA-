@@ -1,0 +1,46 @@
+{
+  "name": "VIP Traveler",
+  "contact_information": {
+    "email": "viptravel@example.com",
+    "phone": "+1-555-1234"
+  },
+  "preferences": {
+    "flights": {
+      "seat_preference": "window"
+    },
+    "hotels": {
+      "room_type": "suite",
+      "bed_preference": "down",
+      "dining": {
+        "preferred_cuisine": "alfresco",
+        "special_diets": ["vegan", "gluten-free"]
+      },
+      "view": "mountain"
+    },
+    "events": {
+      "preferred_genre": "jazz",
+      "vip_passes": true,
+      "golf_experience": true,
+      "private_concert": true
+    },
+    "services": {
+      "personalized_travel_itinerary": true,
+      "heirloom_jeweler": true,
+      "yacht_excursion": true,
+      "skiing_season_update": true,
+      "special_diet_confirmation": true,
+      "hotel_de_crillon_booking": true,
+      "private_jet_booking": true
+    }
+  },
+  "purchase_information": {
+    "card_on_file": ["1234-5678-9876-5432"],
+    "billing_address": {
+      "street_address": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "postal_code": "10001"
+    },
+    "payment_models": ["new_luxe_hotel_model"]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Not Provided",
+  "email": "not_provided@email.com",
+  "phone_number": "Not Provided",
+  "address": {
+    "street_address": "Not Provided",
+    "city": "Not Provided",
+    "state": "Not Provided",
+    "postal_code": "Not Provided",
+    "country": "Not Provided"
+  },
+  "preferences": {
+    "travel_location": ["Not Provided"],
+    "hotel_brand": ["Not Provided"],
+    "meal_type": ["locally sourced organic"],
+    "vegan": true,
+    "wine": ["red", "Bordeaux"],
+    "art": true,
+    "concerts": true,
+    "opera": true,
+    "kid_friendly": true,
+    "limousine": true,
+    "beach_villa": true,
+    "private_chef": true,
+    "private_jet": true
+  },
+  "travel_history": [
+    {
+      "destination": "Not Provided",
+      "hotel": "Not Provided",
+      "comments": "Not Provided"
+    }
+  ],
+  "frequent_stays": {
+    "city": ["Not Provided"],
+    "country": ["Not Provided"]
+  },
+  "notes": [
+    "Ensure a red wine selection for events",
+    "Connect with the Ritz for a refund",
+    "Send a thank-you note to Daniel at Four Seasons Boston",
+    "Update billing address to 21B Baker Street"
+  ]
+}

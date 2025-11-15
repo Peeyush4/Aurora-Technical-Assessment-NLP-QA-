@@ -1,0 +1,86 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "VD2501",
+  "contact_info": {
+    "phone": "Undisclosed",
+    "email": "undisclosed@example.com",
+    "address": "987 Park Avenue, New York",
+    "passport": "Undisclosed"
+  },
+  "preferences": {
+    "seat": "Undisclosed",
+    "hotel_amenities": ["suite", "hypoallergenic_products", "electric_car_charging"],
+    "restaurant_cuisine": ["Fine Dining"],
+    "events": [
+      "fashion_week",
+      "dubai_expo",
+      "yacht_rental",
+      "mediterranean_cruise",
+      "Helicopter tour in Switzerland",
+      "Rodeo Drive shopping spree",
+      "Wimbledon finals",
+      "London Symphony Orchestra",
+      "private museum tours in Moscow"
+    ],
+    "travel": {
+      "car_and_driver": ["New York City", "December 9th"],
+      "private_guide": ["Tokyo"],
+      "villa_tuscany": {
+        "date": "April 15-30, 2026"
+      },
+      "jet_Zurich": {
+        "date": "November 15th"
+      },
+      "suite_paris": [
+        {
+          "date": "This weekend",
+          "kitchenette": true
+        }
+      ],
+      "restaurant_preferences": true,
+      "yoga_mats": true,
+      "beachfront_villa_Bali": true,
+      "limousine_event_schedule": true,
+      "gift_curations": true,
+      "restaurant_anniversary": true,
+      "artwork_office_sydney": true
+    }
+  },
+  "trips_and_events": [
+    {
+      "item": "Suite at the Four Seasons in Maui",
+      "status": "Requested",
+      "request_date": "2025-10-08",
+      "event_date": "2025-12-15",
+      "user_aliases": []
+    },
+    {
+      "item": "Helicopter tour in Switzerland",
+      "status": "Pending",
+      "request_date": "2025-10-09",
+      "event_date": "Undisclosed",
+      "user_aliases": []
+    },
+    {
+      "item": "Rodeo Drive shopping spree",
+      "status": "Pending",
+      "request_date": "2025-10-09",
+      "event_date": "Undisclosed",
+      "user_aliases": []
+    },
+    {
+      "item": "Wimbledon finals tickets",
+      "status": "Pending",
+      "request_date": "2025-10-13",
+      "event_date": "Undisclosed",
+      "user_aliases": []
+    },
+    {
+      "item": "Concert package",
+      "status": "Completed",
+      "request_date": "2025-11-04",
+      "event_date": "Undisclosed",
+      "user_aliases": ["concert package"]
+    }
+  ]
+}

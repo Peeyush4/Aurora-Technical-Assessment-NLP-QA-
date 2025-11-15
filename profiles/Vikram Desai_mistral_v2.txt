@@ -1,0 +1,14 @@
+{
+  "name": "High-End Traveler",
+  "email": "",
+  "preferences": {
+    "travel_style": ["Luxury", "Eco-Friendly"],
+    "cuisine": ["Fine Dining"],
+    "activities": ["Gourmet Food Tours", "Hot Air Balloon Rides", "Wellness Retreats", "Music Festivals"],
+    "accommodation": ["Penthouses", "Suites with Club Access", "Resorts facing the sea"],
+    "special_requests": ["Allergies (Shellfish)", "Two-Michelin-star chef", "VIP experiences"]
+  },
+  "subscription": {
+    "status": "Active"
+  }
+}

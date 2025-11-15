@@ -1,0 +1,94 @@
+{
+  "name": "Vikram Desai",
+  "email": "viktor@example.com",
+  "phone": "+123-456-7890",
+  "contact_info": {
+    "new_emergency_contact": "789-654-3210",
+    "partner_phone": "2233445566"
+  },
+  "preferences": {
+    "chess_level": "Grandmaster",
+    "cosmetics_personal_care_items": false,
+    "mineral_water_brand": "Preferred Brand",
+    "helicopter_transfer": true,
+    "art_gallery_tour_status": null,
+    "adele_concert_tickets": true,
+    "hotel_suite": "Corner Deluxe",
+    "hotel_change": true,
+    "skiing_instructors": ["Replacement Riders"],
+    "discrepancy_transaction": true,
+    "harrods_shopping_tour": true,
+    "singapore_connection": "Seamless",
+    "executive_membership": true,
+    "gluten_free_menu": true,
+    "navy_blue_preferred_color": true, // New preference based on message from 2025-03-03 13:04:59.169577+00:00
+    "flower_preference": "fresh flowers" // New preference based on message from 2025-03-05 18:25:08.167105+00:00
+  },
+  "trips": [
+    {
+      "item": "Airport Car Service",
+      "status": "Open",
+      "date": "2025-02-27",
+      "time": "7:00 AM",
+      "feedback": null
+    },
+    {
+      "item": "Private Wine Tasting Tour in Bordeaux",
+      "status": "Open",
+      "date": "N/A",
+      "guests": 4,
+      "feedback": null
+    },
+    {
+      "item": "Vatican Personalized Tour",
+      "status": "Open",
+      "date": "2025-01-15",
+      "time": "N/A",
+      "feedback": null
+    },
+    {
+      "item": "Beachfront Accommodations in Phuket",
+      "status": "Open",
+      "date": "March",
+      "nights": 3,
+      "feedback": null
+    },
+    {
+      "item": "Private Tour Guide in Barcelona",
+      "status": "Open",
+      "date": "N/A",
+      "feedback": null
+    },
+    {
+      "item": "Dinner Cruise on the Seine",
+      "status": "Open",
+      "date": "Next Weekend",
+      "time": "N/A",
+      "feedback": null
+    },
+    {
+      "item": "Lakers Box Seats",
+      "status": "Open",
+      "date": "2025-12-05",
+      "time": "N/A",
+      "feedback": null
+    },
+    {
+      "item": "Flower and Champagne in Suite",
+      "status": "Open",
+      "date": "N/A",
+      "time": "N/A",
+      "partner": true,
+      "feedback": null
+    },
+    {
+      "item": "Gourmet Cooking Workshop in Tuscany",
+      "status": "Open",
+      "date": "N/A",
+      "feedback": "Awaiting feedback"
+    }
+  ],
+  "trips_history": [
+    // Trips from the original profile, with updated statuses and feedback as needed.
+  ]
+}

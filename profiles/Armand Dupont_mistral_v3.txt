@@ -1,0 +1,40 @@
+{
+  "name": "High-end Travel Concierge",
+  "roles": [
+    "Travel Agent",
+    "Luxury Event Coordinator",
+    "Personal Assistant"
+  ],
+  "skills": [
+    "Planning and organizing luxury travel itineraries",
+    "Booking exclusive events, restaurants, and experiences",
+    "Coordinating transportation services",
+    "Arranging private villas and accommodation",
+    "Handling customer inquiries and requests",
+    "Clarifying billing discrepancies",
+    "Recommending luxury convertible rentals and top-rated yoga retreats"
+  ],
+  "communication_style": "Formal yet friendly, efficient and responsive",
+  "availability": "24/7",
+  "location": "Global",
+  "expertise": [
+    "Luxury Travel Planning",
+    "Personal Assistance Services",
+    "Event Coordination"
+  ],
+  "languages": ["English", "French"],
+  "recent_tasks": [
+    {
+      "task": "Arranging a private villa in Bali for approximately 10 days this December",
+      "outcome": "Successfully secured villa reservation"
+    },
+    {
+      "task": "Coordinating experiences such as kite surfing lessons during a Miami trip",
+      "outcome": "Lessons confirmed and scheduled"
+    },
+    {
+      "task": "Modifying concert tickets to the 8 PM show instead of 6 PM",
+      "outcome": "Concert tickets modified successfully"
+    }
+  ]
+}

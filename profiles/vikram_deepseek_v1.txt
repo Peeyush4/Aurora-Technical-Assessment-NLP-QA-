@@ -1,0 +1,132 @@
+```json
+{
+  "personal_details": {
+    "name": "User",
+    "address": {
+      "current": "489 Madison Ave, Suite 401, Chicago, IL 60654"
+    },
+    "contact_information": {
+      "phone": "789-654-3210",
+      "payment_method": {
+        "international_calls": "direct billing for next month"
+      }
+    },
+    "emergency_contacts": {
+      "primary": "789-654-3210"
+    }
+  },
+  "preferences": {
+    "travel": {
+      "preferred_hotels": ["Bulgari Resort", "Amangiri"],
+      "preferred_airlines": [],
+      "car_services": {
+        "preference": "Tesla",
+        "arrival": "Tesla waiting at the airport in Los Angeles"
+      },
+      "cruises": {
+        "status": "VIP passes for Cannes Film Festival",
+        "delay_investigation": true
+      },
+      "private_transportation": {
+        "bookings": [
+          {
+            "date": "this Friday",
+            "destination": "Ibiza",
+            "type": "private jet"
+          },
+          {
+            "date": "February 12, 2025",
+            "destination": "Cannes",
+            "type": "private jet"
+          }
+        ]
+      },
+      "spas_and_tours": {
+        "booking_status": "Canyon Point Spa booking for Amangiri stay",
+        "helicopter_services": [
+          {
+            "origin": "Cannes",
+            "destination": "Monte Carlo",
+            "status": "booked"
+          }
+        ],
+        "safaris": {
+          "interest": "luxury safari in South Africa for December",
+          "details": "options to be provided; budget flexible"
+        }
+      }
+    },
+    "dining": {
+      "preferences": {
+        "cuisine": "Asian",
+        "dietary_needs": {
+          "almond_milk": true,
+          "low_sodium": true
+        }
+      },
+      "bookings": {
+        "table_reservations": [
+          {
+            "date": "Thursday evening",
+            "location": "Balthazar",
+            "number_of_people": 12
+          },
+          {
+            "date": "December 10th",
+            "location": "Per Se",
+            "number_of_people": 4
+          },
+          {
+            "date": "next Tuesday lunch",
+            "location": "Osteria Francescana"
+          }
+        ]
+      },
+      "special_requests": [
+        {
+          "description": "Private guide for Louvre visit next month",
+          "status": "confirmed"
+        },
+        {
+          "description": "Welcome flowers at arrival",
+          "details": "orchids"
+        }
+      ]
+    },
+    "luxury_interests": {
+      "timepieces": "interest in luxury timepieces available for purchase",
+      "experiences": [
+        {
+          "description": "Exclusive wine tasting event next month",
+          "status": "interest"
+        },
+        {
+          "description": "Cooking class in Naples from June 3rd to 7th",
+          "status": "booked"
+        }
+      ]
+    }
+  },
+  "notes": [
+    {
+      "date": "January 10, 2025",
+      "description": "Not received itinerary for upcoming Singapore trip; request resend"
+    },
+    {
+      "date": "January 20, 2025",
+      "description": "Incorrect charge of $1,200 on account; request correction"
+    },
+    {
+      "date": "February 4, 2025",
+      "description": "Delay in processing recent payment; request assistance"
+    }
+  ],
+  "additional_requests": {
+    "direct_flights": "Inquire about direct flights to Doha on the 3rd",
+    "spa_appointments": "Spa appointment not in itinerary; need to check again",
+    "welcome_amenities": "Hotel room lacked usual welcome amenities; request resolution",
+    "confirmation_needed": "Confirm details of reservation at Bulgari Resort",
+    "private_chef": "Still waiting on confirmation for private chef booking"
+  }
+}
+```

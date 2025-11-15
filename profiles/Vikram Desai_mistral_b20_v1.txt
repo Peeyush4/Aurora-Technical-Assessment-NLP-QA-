@@ -1,0 +1,170 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "+44-7901-234567",
+  "contact_info": {
+    "phone": "",
+    "email": "",
+    "address": "",
+    "passport": ""
+  },
+  "preferences": {
+    "seat": "window",
+    "hotel_amenities": [],
+    "allergies": [],
+    "other": []
+  },
+  "trips_and_events": [
+    {
+      "item": "Champagne on flight",
+      "status": "Requested",
+      "request_date": "2024-11-10",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Last-minute Sundance Film Festival trip",
+      "status": "Requested",
+      "request_date": "2024-11-10",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Private jet to Paris",
+      "status": "Requested",
+      "request_date": "2024-11-11",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Cartier launch event invitation",
+      "status": "Requested",
+      "request_date": "2024-11-12",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Non-alcoholic beverage in hotel suite",
+      "status": "Requested",
+      "request_date": "2024-11-12",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Concert tickets",
+      "status": "Completed",
+      "request_date": "unknown",
+      "event_date": "",
+      "user_aliases": ["concert package"],
+      "feedback": "Positive"
+    },
+    {
+      "item": "Flexible flights",
+      "status": "Completed",
+      "request_date": "2024-11-14",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Espresso machine in hotel suite",
+      "status": "Requested",
+      "request_date": "2024-11-15",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Michelin-starred restaurant in Tokyo",
+      "status": "Requested",
+      "request_date": "2024-11-15",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Oscars tickets",
+      "status": "Requested",
+      "request_date": "2024-11-15",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Chauffeur pickup in Berlin",
+      "status": "Requested",
+      "request_date": "2024-11-16",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Michelin star restaurant recommendation in Hong Kong",
+      "status": "Requested",
+      "request_date": "2024-11-16",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Best dates for cherry blossoms in Japan",
+      "status": "Requested",
+      "request_date": "2024-11-16",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Nanny arrangements for Spain holiday",
+      "status": "Requested",
+      "request_date": "2024-11-18",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Penthouse suite in Singapore",
+      "status": "Requested",
+      "request_date": "2024-11-19",
+      "event_date": "2024-12-10-15",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Payment receipt for concert",
+      "status": "Requested",
+      "request_date": "unknown",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Private sunset cruise in Amalfi Coast",
+      "status": "Requested",
+      "request_date": "2024-11-21",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Private viewing at the Louvre",
+      "status": "Requested",
+      "request_date": "2024-11-22",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    },
+    {
+      "item": "Private dining experience at villa",
+      "status": "Requested",
+      "request_date": "2024-11-24",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": ""
+    }
+  ]
+}

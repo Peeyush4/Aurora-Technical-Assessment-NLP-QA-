@@ -1,0 +1,54 @@
+{
+  "name": "Undisclosed Client",
+  "contact_details": {
+    "phone_number": "123-456-7890"
+  },
+  "requests": [
+    {
+      "type": "Travel",
+      "destination": ["Santorini"],
+      "request_date": "next week",
+      "services": ["Private Chef"]
+    },
+    {
+      "type": "Travel",
+      "destination": ["Amalfi Coast"],
+      "request_date": "summer",
+      "services": ["Villa Rental", "Direct Sea Access"]
+    },
+    {
+      "type": "Dining",
+      "restaurant": "Le Bernardin",
+      "date": "tomorrow at 8 PM"
+    },
+    {
+      "type": "Entertainment",
+      "event": "Met Gala",
+      "year": "2023",
+      "tickets_required": 4
+    },
+    {
+      "type": "Travel",
+      "destination": ["Paris"],
+      "request_date": "this summer",
+      "services": ["Balenciaga Shopping Tour"]
+    },
+    {
+      "type": "Billing",
+      "billing_address": "1234 Park Ave, NYC"
+    }
+  ],
+  "preferences": {
+    "flight_options": {"direct": true},
+    "dietary_requirements": ["Vegan"],
+    "alcohol_preference": ["Champagne", "Dom Perignon"]
+  },
+  "communications": [
+    {
+      "type": "Flower Delivery",
+      "recipient": "",
+      "date": "",
+      "flower_type": ""
+    }
+  ]
+}

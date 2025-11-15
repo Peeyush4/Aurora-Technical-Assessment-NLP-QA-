@@ -1,0 +1,97 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": null,
+  "contact_info": {
+    "phone": null,
+    "email": null,
+    "address": null,
+    "passport": null
+  },
+  "preferences": {
+    "seat": "aisle",
+    "hotel_amenities": [],
+    "allergies": ["shellfish"],
+    "other": ["minimalist decor"]
+  },
+  "trips_and_events": [
+    {
+      "item": "Hotel Issue",
+      "status": "Pending",
+      "request_date": "2025-09-07",
+      "feedback": null,
+      "user_aliases": []
+    },
+    {
+      "item": "New Year's Eve in the Alps",
+      "status": "Requested",
+      "request_date": "2025-09-07",
+      "event_date": null,
+      "user_aliases": ["secluded luxury"],
+      "feedback": null
+    },
+    {
+      "item": "Subscription Charge Issue",
+      "status": "Pending",
+      "request_date": "2025-09-09",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Broadway Premiere Backstage Passes",
+      "status": "Pending",
+      "request_date": "2025-10-13",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Luxurious Spa Day in Aspen",
+      "status": "Requested",
+      "request_date": "2025-10-14",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Anniversary Dinner in Paris",
+      "status": "Completed",
+      "request_date": "2025-10-10",
+      "event_date": "2025-10-10",
+      "user_aliases": [],
+      "feedback": "Thank you for arranging a memorable anniversary celebration."
+    },
+    {
+      "item": "Table at Nobu",
+      "status": "Pending",
+      "request_date": "2025-10-27",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Personal Fitness Trainer in Aspen",
+      "status": "Pending",
+      "request_date": "2025-10-28",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Met Gala Tickets",
+      "status": "Pending",
+      "request_date": "2025-10-28",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    },
+    {
+      "item": "Alternatives for Recommended Hotel",
+      "status": "Pending",
+      "request_date": "2025-10-29",
+      "event_date": null,
+      "user_aliases": [],
+      "feedback": null
+    }
+  ]
+}

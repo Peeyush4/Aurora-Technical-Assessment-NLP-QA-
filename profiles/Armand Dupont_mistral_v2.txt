@@ -1,0 +1,50 @@
+{
+  "name": "Unknown",
+  "email": null,
+  "phone_number": null,
+  "location": null,
+  "preferences": {
+    "transportation": ["chauffeur", "private jet"],
+    "accommodations": ["luxury suite", "presidential suite", "villa"],
+    "dining": ["fine dining", "chef's table", "private wine tasting"],
+    "events": ["concert", "opera", "Fashion Week show"],
+    "activities": ["hiking", "sailing excursion", "cooking class"]
+  },
+  "requests": [
+    {
+      "request_type": "transportation",
+      "details": {
+        "transport_type": "chauffeur"
+      }
+    },
+    {
+      "request_type": "accommodations",
+      "details": {
+        "accommodation_type": "luxury suite"
+      }
+    },
+    {
+      "request_type": "dining",
+      "details": {
+        "cuisine": "fine dining"
+      }
+    },
+    {
+      "request_type": "events",
+      "details": {
+        "event_type": "concert"
+      }
+    },
+    {
+      "request_type": "activities",
+      "details": {
+        "activity_type": "hiking"
+      }
+    }
+  ],
+  "communication_preferences": {
+    "email": false,
+    "phone": false
+  },
+  "loyalty_status": null
+}

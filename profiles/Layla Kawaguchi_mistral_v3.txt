@@ -1,0 +1,48 @@
+{
+  "name": "Unnamed User",
+  "email": null,
+  "loyalty_card": false,
+  "passport_number": "123456789",
+  "phone_number": "987-654-3210",
+  "preferred_hotel_chain": null,
+  "preferred_airline": null,
+  "luggage_brand": "Rimowa",
+  "frequent_destinations": ["Paris", "Maui"],
+  "disliked_destinations": ["Vienna"],
+  "special_requests": [
+    {
+      "type": "special_meals",
+      "preference": null
+    },
+    {
+      "type": "accessibility",
+      "requirements": null
+    },
+    {
+      "type": "amenities",
+      "preferences": [
+        "extra pillows",
+        "heating pad"
+      ]
+    }
+  ],
+  "wish_list": [],
+  "events": [
+    {
+      "event_name": "Cannes Film Festival",
+      "participation_status": null,
+      "VIP_access": null
+    },
+    {
+      "event_name": "Art Gallery Opening",
+      "invitation_list_status": null
+    }
+  ],
+  "preferred_activities": [
+    "private yoga classes",
+    "orchestra seats at shows",
+    "private dining experiences",
+    "exclusive shopping appointments",
+    "behind-the-scenes tours"
+  ]
+}

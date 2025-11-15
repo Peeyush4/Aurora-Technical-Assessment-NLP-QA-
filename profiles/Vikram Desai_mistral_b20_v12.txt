@@ -1,0 +1,117 @@
+{
+  "user_name": "Vikram Desai",
+  "user_id": "1234567890",
+  "contact_info": {
+    "phone": "+123-456-7890",
+    "email": "viktor@example.com",
+    "address": "742 Evergreen Terrace",
+    "passport": "987654321"
+  },
+  "preferences": {
+    "seat": "sea-view",
+    "hotel_amenities": ["Jacuzzi", "fragrance-free"],
+    "allergies": ["shellfish"],
+    "other": [
+      "Dom Perignon",
+      "chef's table",
+      "wellness retreat",
+      "local guide for pyramids",
+      "personal trainer",
+      "exclusive after-party in Miami",
+      "personal shopper in Milan",
+      "one-on-one meetings at Tech Expos",
+      "presidential suite at the Ritz in London",
+      "charter flight to Punta Cana",
+      "The Ivy for dinner",
+      "tennis coach billing",
+      "Bali villa payment",
+      "event tickets for charity gala"
+    ]
+  },
+  "trips_and_events": [
+    {
+      "item": "Moet & Chandon tour in Epernay",
+      "status": "",
+      "request_date": "2025-05-09",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Virtual reality golfing experience at home",
+      "status": "Requested",
+      "request_date": "2025-06-22 10:50:03.167906+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Chef to prepare a special dinner during stay",
+      "status": "Requested",
+      "request_date": "2025-06-22 09:53:53.161183+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Stila Hyaluronic Hydration Powder in room upon arrival",
+      "status": "Requested",
+      "request_date": "2025-06-29 10:47:50.175247+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Extra baggage allowances on flight for heavy equipment",
+      "status": "Requested",
+      "request_date": "2025-06-30 10:47:50.175247+00:00",
+      "event_date": "2025-06-xx",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Exclusive after-party in Miami",
+      "status": "Requested",
+      "request_date": "2025-07-13 17:07:09.174631+00:00",
+      "event_date": "2025-07-xx",
+      "user_aliases": ["exclusive after-party"],
+      "feedback": []
+    },
+    {
+      "item": "Personal shopper in Milan",
+      "status": "Requested",
+      "request_date": "2025-07-15 08:53:43.168334+00:00",
+      "event_date": "2025-07-12",
+      "user_aliases": ["personal shopper"],
+      "feedback": []
+    },
+    {
+      "item": "One-on-one meetings at Tech Expos",
+      "status": "",
+      "request_date": "2025-07-26 06:00:17.171083+00:00",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    {
+      "item": "Presidential suite at the Ritz in London",
+      "status": "Requested",
+      "request_date": "2025-07-26 13:11:26.175030+00:00",
+      "event_date": "2025-07-17",
+      "user_aliases": ["presidential suite"],
+      "feedback": []
+    },
+    {
+      "item": "Charity gala event tickets",
+      "status": "",
+      "request_date": "2025-08-03 02:55:54.168760+00:00",
+      "event_date": "",
+      "user_aliases": [],
+      "feedback": []
+    },
+    // Remaining trips and events are not affected by the new messages
+  ],
+  "trips_and_events_feedback": [
+    // Feedback will be added here as it becomes available.
+  ]
+}
