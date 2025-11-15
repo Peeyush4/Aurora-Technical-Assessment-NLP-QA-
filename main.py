@@ -1,86 +1,50 @@
-import uvicorn
 from fastapi import FastAPI, HTTPException
-from pydantic.v1 import BaseModel # Use v1 for LangChain compatibility
-from langchain_core.messages import HumanMessage
-import uuid
+from pydantic import BaseModel
+import uvicorn
+from qa_system import answer_question  # Import the "brain"
 
-# Import our compiled agent
-from agent import app
-# Import the spaCy loader
-from tools import nlp, KNOWN_USER_ALIASES
-
-# --- API Setup ---
-api = FastAPI(
+# 1. Initialize your FastAPI app
+app = FastAPI(
     title="Aurora AI/ML Take-Home API",
-    description="A 10x Engineer's Agentic RAG API using LangGraph and Ollama.",
+    description="A Q&A system for member messages using RAG.",
     version="1.0.0"
 )
 
-# --- Pydantic Models ---
+# 2. Define the Pydantic models for request (input) and response (output)
 class QuestionRequest(BaseModel):
+    """The JSON payload for a question."""
     question: str
-    thread_id: str = None # We NEED thread_id for conversational memory
 
 class AnswerResponse(BaseModel):
+    """The JSON response with the answer."""
     answer: str
-    thread_id: str # We will return the thread_id
 
-# --- Startup Event ---
-@api.on_event("startup")
-def startup_event():
-    """
-    Runs once when the API starts.
-    This just confirms our models are loaded.
-    """
-    print("--- API Startup ---")
-    if nlp is None:
-        print("!!! FATAL: spaCy model not loaded. API will fail.")
-    else:
-        print(f"spaCy NER and {len(KNOWN_USER_ALIASES)} user aliases are loaded.")
-    print("--- API Ready ---")
-
-
-# --- The /ask Endpoint ---
-@api.post("/ask", response_model=AnswerResponse)
+# 3. Create the /ask API endpoint
+@app.post("/ask", response_model=AnswerResponse)
 async def ask(request: QuestionRequest):
     """
     Accepts a natural-language question and responds with an answer
-    inferred by the LangGraph agent.
+    inferred from the member messages.
     """
     if not request.question:
         raise HTTPException(status_code=400, detail="Question field cannot be empty")
     
-    # We NEED a thread_id for the agent's memory
-    thread_id = request.thread_id or str(uuid.uuid4())
-    config = {"configurable": {"thread_id": thread_id}}
+    print(f"Received question: {request.question}")
     
-    print(f"\n--- New Request (Thread: {thread_id}) ---")
-    print(f"Question: {request.question}")
-
-    # 2. This is the 10x step: we run the whole agent
-    # This will take 20-30s, as you're fine with.
+    # 4. Get the answer from your RAG "brain"
     try:
-        final_state = app.invoke(
-            {"messages": [HumanMessage(content=request.question)]}, 
-            config=config
-        )
-        
-        # The final answer is the last message in the state
-        answer = final_state['messages'][-1].content
-        
-        print(f"Final Answer: {answer}")
-        return {"answer": answer, "thread_id": thread_id}
-        
+        answer = answer_question(request.question)
+        print(f"Generated answer: {answer}")
+        return {"answer": answer}
     except Exception as e:
-        print(f"!!! AGENT FAILED: {e}")
-        raise HTTPException(status_code=500, detail=f"Agent Error: {e}")
+        print(f"An error occurred: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
 
-# --- Root Endpoint ---
-@api.get("/", include_in_schema=False)
+# 5. (Optional) A root endpoint to check if the server is running
+@app.get("/", include_in_schema=False)
 def read_root():
-    return {"status": "Aurora QA API (LangGraph Agent) is running!", "docs_url": "/docs"}
+    return {"status": "Aurora QA API is running!", "docs_url": "/docs"}
 
-# --- Uvicorn Runner ---
+# 6. This part allows you to run the app with `python main.py`
 if __name__ == "__main__":
-    # Note: This is now 'app.main:api' because it's inside the 'app' folder
-    uvicorn.run("app.main:api", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run(app, host="0.0.0.0", port=8000)

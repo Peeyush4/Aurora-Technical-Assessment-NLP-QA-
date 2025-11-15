@@ -20,7 +20,7 @@ elif MODEL_TYPE == "litellm":
     from .litellm import LiteLLMGenerator
     MODEL_NAME = os.getenv(
         "LITELLM_MODEL_NAME", 
-        "ollama/mistral"
+        "ollama/llama3.1:8b"
     )
     generator = LiteLLMGenerator(model_name=MODEL_NAME)
 else:
