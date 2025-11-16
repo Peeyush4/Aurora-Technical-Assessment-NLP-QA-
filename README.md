@@ -5,11 +5,14 @@ This repository implements a Standard RAG (Retrieve→Generate) Q&A pipeline ove
 ## Table of Contents
 - [Key Components](#key-components)
 - [Problem Statement](#problem-statement)
+- [Data Source](#data-source)
 - [Quickstart](#quickstart)
 	- [Prerequisites](#prerequisites)
 	- [Install](#install)
+	- [Environment variables (`.env`)](#environment-variables-env)
 	- [Build the vector store (one-time)](#build-the-vector-store-one-time)
 	- [Run the API](#run-the-api)
+- [Docker Usage](#docker-usage)
 - [Example Request](#example-request)
 - [Code Structure and Details](#code-structure-and-details)
 	- [Data ingestion (`ingest_data.py`)](#data-ingestion-ingest_datapy)
@@ -22,6 +25,7 @@ This repository implements a Standard RAG (Retrieve→Generate) Q&A pipeline ove
 - [Security & Privacy Notes](#security--privacy-notes)
 - [Development & Testing](#development--testing)
 - [Future Work](#future-work)
+- [Design Notes & Architecture](#bonus-design-notes--architecture)
 
 ## Key Components
 - **`chroma_db/`**: Persistent ChromaDB directory created by `ingest_data.py` that stores embeddings and metadata for messages.
@@ -190,6 +194,43 @@ POST to `/ask` with JSON payload. Example (PowerShell / curl):
 ```powershell
 curl -X POST "http://localhost:8000/ask" -H "Content-Type: application/json" -d '{"question": "What is Thiago Monteiro's phone number?"}'
 ```
+
+## Docker Usage
+
+- Image & compose: a GPU-ready image is provided (`Dockerfile.gpu`) and a compose file (`docker-compose.gpu.yml`) exists for convenience. The GPU image expects NVIDIA runtime support (`--gpus all`) when running locally.
+- Persisting embeddings: the project persists ChromaDB under `/app/chroma_db`. When running in Docker you have two options:
+	- Named Docker volume (recommended for production-like runs): use `docker-compose.gpu.yml` which defines a `chroma_db` volume and mounts it into the container so embeddings survive container recreation.
+	- Bind mount to host (recommended for fast local development): `-v "${PWD}\chroma_db:/app/chroma_db"` so you can inspect embeddings on the host filesystem.
+- Example (PowerShell) `docker run` using a host bind for data and code hot-reload:
+
+```powershell
+docker run --gpus all --env-file .env -p 8000:8000 \
+	-v "${PWD}\chroma_db:/app/chroma_db" \
+	-v "${PWD}\data:/app/data" \
+	--name aurora-qa-api -d aurora-qa-api:gpu
+```
+
+- Example for fast development (bind-mount code and run uvicorn with reload inside the container):
+
+```powershell
+docker run --gpus all --env-file .env -p 8000:8000 \
+	-v "${PWD}:/app" \
+	-v "${PWD}\chroma_db:/app/chroma_db" \
+	--name aurora-qa-dev -d aurora-qa-api:gpu bash -c "uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+```
+
+- Pre-pulling models: pulling large models at startup can block container start and consume a lot of disk. If you want reproducible images, install or pull models at image build time (or provide `OLLAMA_PRELOAD_MODELS` to the entrypoint to opt-in to pulling at container start). I can add an `OLLAMA_PRELOAD_MODELS` env var handling to `docker_entrypoint.sh` if you'd like.
+
+Supported generator backends (explicit)
+- Ollama (local): supported via `litellm` or the Ollama CLI. Set `LITELLM_MODEL_NAME` to an Ollama reference like `ollama/mistral` or the canonical model name returned by `ollama list`. Ensure the Ollama service is running (`ollama serve`) or set `OLLAMA_HOST` to a reachable instance.
+- Hugging Face: supported. When using private or gated HF models set `HUGGINGFACE_API_KEY` or `HUGGINGFACE_HUB_TOKEN` in `.env`. Example model identifiers: `huggingface/google/flan-t5-base` or `huggingface/your-org/your-model`.
+- Google Gemini: supported via `generators/gemini.py` when you set `GOOGLE_API_KEY` and `GOOGLE_MODEL` (examples: `gemini-2.5-flash`). This calls Google's Generative API and is independent of local Ollama/HF models.
+
+Notes:
+- Ollama is a native CLI/binary — do not add it to `requirements.txt`. Instead document the required Ollama installer or add an installer to your Dockerfile. If you want, I can add a safe `RUN curl https://ollama.ai/install.sh | sh` step to `Dockerfile.gpu` (or a pinned installer flow).
+- Hugging Face and Gemini usage requires network access and valid credentials when models are not public.
+- If your GPU has limited VRAM (e.g. 8 GiB), prefer smaller models or run Ollama on a host with more resources and point the app at it via `OLLAMA_HOST`.
+
 
 Example response (simplified):
 
