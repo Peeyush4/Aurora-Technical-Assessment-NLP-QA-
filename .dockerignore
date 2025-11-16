@@ -1,0 +1,35 @@
+# Python / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+.DS_Store
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+env/
+
+# Local environment
+.env
+
+# Git
+.git/
+
+# Data and DB (mount at runtime instead of baking into image)
+chroma_db/
+data/
+
+# Editor files
+.vscode/
+.idea/
+
+# OS artifacts
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

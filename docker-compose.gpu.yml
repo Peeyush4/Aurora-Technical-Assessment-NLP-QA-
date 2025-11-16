@@ -1,0 +1,27 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.gpu
+    image: aurora-qa-api:gpu
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - chroma_db:/app/chroma_db
+      - ./data:/app/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    # Note: Compose support for GPU differs by platform. You may need to run with
+    # `docker run --gpus all ...` or enable the nvidia runtime in your Docker daemon.
+
+volumes:
+  chroma_db:
+    driver: local

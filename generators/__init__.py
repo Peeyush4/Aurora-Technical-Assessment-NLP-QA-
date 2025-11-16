@@ -4,8 +4,10 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Read the "switch" from your .env file
-MODEL_TYPE = os.getenv("GENERATOR_MODEL", "litellm").lower()
+# Read the "switch" from your .env file and be tolerant of quoting/whitespace
+raw_model = os.getenv("GENERATOR_MODEL", "litellm")
+# Strip surrounding whitespace and any surrounding single/double quotes
+MODEL_TYPE = raw_model.strip().strip('"').strip("'").lower()
 
 if MODEL_TYPE == "gemini":
     print("Using Gemini Generator.")

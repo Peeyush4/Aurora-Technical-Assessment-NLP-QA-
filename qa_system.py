@@ -147,7 +147,6 @@ def answer_question(question: str, using_rag=True, allow_inference: bool = True)
     print("Final Prompt to Generator:\n", prompt_template)
     # 5. Call the generator (This is the pluggable part!)
     response_text = generator.generate(prompt_template)
-
     # --- Post-check: validate evidence lines exist verbatim in the context ---
     # Accepted formats:
     # 1) <Answer>\nEvidences:\n<e1>\n<e2>...

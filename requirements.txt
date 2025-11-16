@@ -11,7 +11,13 @@ protobuf==6.33.1
 pydantic==2.12.4
 python-dotenv==1.2.1
 spacy==3.8.9
-torch==2.9.1+cu130
 tqdm==4.67.1
 transformers==4.57.1
-uvicorn==0.38.0
+uvicorn[standard]==0.38.0
+# Note: torch is installed explicitly in Dockerfile.gpu to ensure CUDA wheel
+# compatibility. Do NOT list torch here to avoid pip re-installing it inside
+# the GPU image. For local CPU installs, run pip install torch separately.
+sentence-transformers
+python-Levenshtein
+litellm
+ollama==0.6.0

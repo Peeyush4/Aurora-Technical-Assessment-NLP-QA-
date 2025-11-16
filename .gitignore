@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints
 data/
+profiles/check_llm.ipynb
+data_analysis.ipynb
+.env.*

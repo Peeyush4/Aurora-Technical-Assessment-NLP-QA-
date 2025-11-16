@@ -1,0 +1,62 @@
+# GPU-enabled Dockerfile for hosts with NVIDIA GPUs
+# Build with: docker build -f Dockerfile.gpu -t aurora-qa-api:gpu .
+# Run with: docker run --gpus all --env-file .env -p 8000:8000 -v ./chroma_db:/app/chroma_db -v ./data:/app/data aurora-qa-api:gpu
+
+FROM nvidia/cuda:13.0.1-runtime-ubuntu24.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+WORKDIR /app
+
+# Install Python and minimal build tools
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3 \
+    python3-pip \
+    python3-venv \
+    build-essential \
+    git \
+    wget \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Make 'python' point to python3
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+# Copy requirements and use pip with --break-system-packages to avoid PEP 668 failures
+COPY requirements.txt .
+RUN python -m pip install --upgrade pip --break-system-packages || true
+
+# Install PyTorch GPU wheel explicitly for CUDA 13.0 when available.
+# Fallback: install a generic torch wheel so CPU-only hosts still succeed.
+RUN python -m pip install --no-cache-dir --break-system-packages --index-url https://download.pytorch.org/whl/cu130 torch==2.9.1+cu130 || python -m pip install --no-cache-dir --break-system-packages torch
+
+# Optionally install the Ollama CLI so the container can serve local Ollama models.
+# NOTE: this runs the official Ollama installer script at build time. If you prefer
+# to run Ollama on the host instead (recommended for production), skip this step.
+RUN set -eux; \
+    if curl -fsSL https://ollama.com/install.sh -o /tmp/ollama-install.sh; then \
+        /bin/sh /tmp/ollama-install.sh || true; \
+    else \
+        echo "Could not download Ollama installer; skipping ollama install"; \
+    fi
+
+# Install the remaining requirements (allow transitive dependencies)
+# Torch is installed above explicitly; installing requirements normally
+# ensures runtime packages like `click` (used by uvicorn CLI) are present.
+RUN python -m pip install --no-cache-dir --break-system-packages -r requirements.txt
+
+# Install spaCy English model package so it's always available at runtime
+# Installing as a package ensures `spacy.load("en_core_web_sm")` succeeds.
+RUN python -m spacy download en_core_web_sm --break-system-packages
+
+COPY . .
+
+EXPOSE 8000
+
+# Add a small entrypoint script to ensure the Chroma DB is present (or run ingest)
+COPY docker_entrypoint.sh /usr/local/bin/docker_entrypoint.sh
+RUN chmod +x /usr/local/bin/docker_entrypoint.sh
+
+ENTRYPOINT ["/usr/local/bin/docker_entrypoint.sh"]

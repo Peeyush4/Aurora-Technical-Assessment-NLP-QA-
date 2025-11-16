@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: aurora-qa-api:latest
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./data:/app/data
+    # If using Ollama running on the host, set OLLAMA_HOST to http://host.docker.internal:11434 in .env
