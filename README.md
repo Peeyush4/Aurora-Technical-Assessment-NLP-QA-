@@ -17,7 +17,6 @@ This repository implements a Standard RAG (Retrieve→Generate) Q&A pipeline ove
 - [Code Structure and Details](#code-structure-and-details)
 	- [Data ingestion (`ingest_data.py`)](#data-ingestion-ingest_datapy)
 	- [Vector DB / Retriever (`core/db.py`)](#vector-db--retriever-coredbpy)
-	- [Tools (`tools.py`)](#tools-toolspy)
 	- [QA Orchestration (`qa_system.py`)](#qa-orchestration-qasystempy)
 	- [Generator wrappers (`generators/`)](#generator-wrappers-generators)
 - [Design Decisions and Rationale](#design-decisions-and-rationale)
@@ -33,7 +32,6 @@ This repository implements a Standard RAG (Retrieve→Generate) Q&A pipeline ove
 - **`ingest_data.py`**: Script to build the vector store from source data (`data/response_1762800357568.json`), compute embeddings, and persist them to `chroma_db/`.
 - **`main.py`**: FastAPI application that exposes the `/ask` endpoint and delegates question answering to the RAG QA system.
 - **`qa_system.py`**: High-level orchestrator implementing the RAG flow and prompt composition used to call the generator with context assembled from retrieved documents.
-- **`tools.py`**: Tool definitions used by the agent: name extraction (`find_user_names`), retrieval (`get_user_messages` / `search_messages`), and simple system statistics (`get_system_stats`).
 
 ## Problem Statement
 This project was developed as part of the Aurora Technical Assessment for an NLP Q&A system. The formal problem statement is available at:
@@ -68,7 +66,7 @@ API docs and testing:
 Run inside a virtual environment. Example (PowerShell):
 
 ```powershell
-& "C:/MY FILES/Peeyush-Personal/Coding/.venv/Scripts/Activate.ps1"
+& ".venv/Scripts/activate"
 pip install -r requirements.txt
 ```
 
@@ -82,28 +80,28 @@ Common environment variables used by the included generators:
 - `GOOGLE_API_KEY` — optional; required by `generators/gemini.py` to call Google Generative AI.
 - `GOOGLE_MODEL` — optional; defaults to `gemini-2.5-flash` in `generators/gemini.py`.
 - `HUGGINGFACE_API_KEY` or `HUGGINGFACE_HUB_TOKEN` — required when using private Hugging Face models or when litellm needs a key. `generators/litellm.py` prints a warning if this is missing for HF models.
-- `OLLAMA_HOST` — optional, e.g. `http://localhost:11434` if you self-host Ollama; litellm or other wrappers may read this from the environment depending on your setup.
-- `OLLAMA_API_KEY` — optional for Ollama cloud-hosted deployments if auth is required by your setup.
-- `OPENAI_API_KEY` — optional if you configure litellm or other code paths to call OpenAI.
 
-- `GENERATOR_MODEL` — optional. If present, this selects which generator backend the project should prefer (examples: `litellm`, `huggingface`, `gemini`, `ollama`). If omitted the code typically defaults to `litellm` or the generator configured in your runtime/startup logic.
+- `GENERATOR_MODEL` — optional. If present, this selects which generator backend the project should prefer (examples: `litellm`, `huggingface`, `gemini`). If omitted the code typically defaults to `litellm` or the generator configured in your runtime/startup logic.
 - `LITELLM_MODEL_NAME` — required when `GENERATOR_MODEL` is set to `litellm` (or when you call `generators/litellm.py` directly). This is the model identifier passed to `litellm.completion()` and can point to local prefixes (for Ollama) or to a Hugging Face path. Example values: `ollama/mistral`, `huggingface/google/flan-t5-base`, `gpt-4o-mini`.
+- `OLLAMA_AUTO_SERVE` — set it to `true` or `false`. If it is set to `true`, `ollama serve` runs automatically.
+- `OLLAMA_PRELOAD_MODELS` — (This is under testing). This downloads models while building the docker container.
 
-Note on quoting: `.env` parsers accept both `KEY=value` and `KEY="value"` forms; prefer `KEY=value` without quotes for portability.
+Note on quoting: `.env` parsers accept both `KEY=value` and `KEY="value"` forms but I suggest `KEY=value` without quotes.
 
 Example `.env` (store in project root; do NOT commit this file):
 
 ```
 GENERATOR_MODEL=litellm
-LITELLM_MODEL_NAME=ollama/mistral
+LITELLM_MODEL_NAME=ollama/llama3.1:8b
 
 GOOGLE_API_KEY=sk-...your_google_api_key_here...
 GOOGLE_MODEL=gemini-2.5-flash
-HUGGINGFACE_API_KEY=hf_xxx_your_hf_key
-HUGGINGFACE_HUB_TOKEN=hf_xxx_your_hf_token
-OLLAMA_HOST=http://localhost:11434
-OLLAMA_API_KEY=ollama_api_key_if_needed
-OPENAI_API_KEY=sk-...your_openai_key...
+
+# Hugging Face (REDACTED in example)
+HUGGINGFACE_API_KEY=<REDACTED - set your Hugging Face key>
+HUGGINGFACE_HUB_TOKEN=<REDACTED - set your HF hub token if needed>
+
+OLLAMA_AUTO_SERVE=true
 ```
 
 Security and usage notes:
@@ -178,7 +176,7 @@ ollama pull <model>
 
 # Examples:
 ollama pull mistral
-ollama pull ollama/mistral
+ollama pull llama3.1:8b
 
 # List installed models to verify
 ollama list
@@ -219,7 +217,7 @@ docker run --gpus all --env-file .env -p 8000:8000 \
 	--name aurora-qa-dev -d aurora-qa-api:gpu bash -c "uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
 ```
 
-- Pre-pulling models: pulling large models at startup can block container start and consume a lot of disk. If you want reproducible images, install or pull models at image build time (or provide `OLLAMA_PRELOAD_MODELS` to the entrypoint to opt-in to pulling at container start). I can add an `OLLAMA_PRELOAD_MODELS` env var handling to `docker_entrypoint.sh` if you'd like.
+- Pre-pulling models: pulling large models at startup can block container start and consume a lot of disk. If you want reproducible images, install or pull models at image build time (or provide `OLLAMA_PRELOAD_MODELS` to the entrypoint to opt-in to pulling at container start). I can add an `OLLAMA_PRELOAD_MODELS` env var handling to `docker_entrypoint.sh` if you'd like (Still under testing).
 
 Supported generator backends (explicit)
 - Ollama (local): supported via `litellm` or the Ollama CLI. Set `LITELLM_MODEL_NAME` to an Ollama reference like `ollama/mistral` or the canonical model name returned by `ollama list`. Ensure the Ollama service is running (`ollama serve`) or set `OLLAMA_HOST` to a reachable instance.
@@ -236,10 +234,7 @@ Example response (simplified):
 
 ```json
 {
-	"answer": "The phone number of Thiago Monteiro is 415-123-4567.",
-	"evidence": [
-		{ "source": "doc-1", "text": "Call me at 415-123-4567" }
-	]
+  "answer": "Thiago's most recently mentioned phone number is 3217896543.\nEvidences:\n- On 2025-08-30T05:44:42.175753+00:00, user Thiago Monteiro sent a message: 'Contact me directly at 3217896543 for immediate reservation confirmations.'"
 }
 ```
 
@@ -252,11 +247,6 @@ Example response (simplified):
 ### Vector DB / Retriever (`core/db.py`)
 - Uses `langchain_chroma.Chroma` with `HuggingFaceEmbeddings` (model: `all-MiniLM-L6-v2`).
 - Builds a retriever with default `k=10` (returns top-k candidate documents for the LLM).
-
-### Tools (`tools.py`)
-- `find_user_names` — spaCy NER + fuzzy matching to find canonical user names.
-- `search_messages` / `get_user_messages` — metadata-filtered retrieval by `user_name`.
-- `get_system_stats` — returns simple diagnostics (number of users, messages, etc.).
 
 ### QA Orchestration (`qa_system.py`)
 - `get_rag_information` performs retrieval and returns a context string used to prompt the generator.
@@ -285,8 +275,14 @@ python -m spacy download en_core_web_sm
 - Do not expose raw credit-card-like tokens. Mask sensitive fields and require explicit authorization for high-sensitivity data.
 
 ## Development & Testing
-- `data_analysis.ipynb` contains exploratory analysis, classification templates, and generator call examples.
 - `test_agent.py` and variants exist to exercise the agent graph during development.
+- `tools.py` Tool definitions used by the agent: name extraction (`find_user_names`), retrieval (`get_user_messages` / `search_messages`), and simple system statistics (`get_system_stats`).
+- `profiles/` folder: contains sample profile outputs produced during offline experiments. These are retained for reproducibility and analysis but are not used by the main RAG pipeline.
+- `profile_builder.py`: an offline script used to generate canonical profiles from the full message set as part of the Offline Profile Agent experiments. The script and outputs illustrate the approach and its failure modes (hallucination, misclassification) discussed in "Path 2 — Offline Profile Agent" below.
+- `agent.py`: prototype agent orchestration and LangGraph experiment harness used while evaluating agentic RAG flows. This file contains experimental wiring and is not part of the production request/response path in `main.py`.
+- `deprecated/` folder: contains experimental and now-rejected code used to deploy or test the evaluated architectures (offline profile-builder, online agentic RAG variants, and small deployment scripts). These are preserved for traceability and to reproduce experiments, but they are not recommended for production use.
+
+See the "Rejected" sections below (Path 2 / Path 3) for the reasoning and logs that motivated keeping these artifacts for auditability.
 
 ## Future Work
 - Add deterministic extraction endpoints for structured data (phones, emails, preferences).
