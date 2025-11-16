@@ -227,7 +227,6 @@ Supported generator backends (explicit)
 Notes:
 - Ollama is a native CLI/binary — do not add it to `requirements.txt`. Instead document the required Ollama installer or add an installer to your Dockerfile. If you want, I can add a safe `RUN curl https://ollama.ai/install.sh | sh` step to `Dockerfile.gpu` (or a pinned installer flow).
 - Hugging Face and Gemini usage requires network access and valid credentials when models are not public.
-- If your GPU has limited VRAM (e.g. 8 GiB), prefer smaller models or run Ollama on a host with more resources and point the app at it via `OLLAMA_HOST`.
 
 
 Example response (simplified):
